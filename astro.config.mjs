@@ -27,10 +27,10 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain language prefix will be treated as default locale
+        defaultLocale: "es", // All urls that don't contain language prefix will be treated as default locale
         locales: {
-          en: "en", // The `defaultLocale` value must present in `locales` keys
-          fr: "fr",
+          es: "es", // The `defaultLocale` value must present in `locales` keys
+          en: "en",
         },
       },
     }),
@@ -42,16 +42,13 @@ export default defineConfig({
       // If only an Astro i18n configuration is provided, the Starlight i18n configuration is updated to match it.
       // If both an Astro and Starlight i18n configurations are provided, an error is thrown.
       locales: {
+        // 1. La raíz ahora es Español (Micrafil.com cargará en español)
         root: {
-          label: "English",
-          lang: "en",
+          label: "Español",
+          lang: "es",
+        // 2. Definimos el secundario (Micrafil.com/en cargará en inglés)
         },
-        de: { label: "Deutsch", lang: "de" },
-        es: { label: "Español", lang: "es" },
-        fa: { label: "Persian", lang: "fa", dir: "rtl" },
-        fr: { label: "Français", lang: "fr" },
-        ja: { label: "日本語", lang: "ja" },
-        "zh-cn": { label: "简体中文", lang: "zh-CN" },
+        en: { label: "English", lang: "en" },
       },
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
