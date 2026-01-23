@@ -3,12 +3,12 @@ import ogImageSrc from "@images/social.png";
 
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Micrafil | Filtros Industriales: Hidráulica, Aire y Líquidos",
+  tagline: "Expertos en Filtración Industrial",
+  description: "Distribuidor de filtros industriales y refacciones compatibles (Donaldson, Truwater). Especialistas en filtración hidráulica (aceite), sistemas de aire (colectores, HVAC) y tratamiento de agua en Querétaro y Bajío.",
+  description_short: "Filtros industriales, diseño, refacciones y mantenimiento.",
+  url: "https://micrafil.com",
+  author: "Ingeniería Micrafil",
 };
 
 export const SEO = {
@@ -16,8 +16,8 @@ export const SEO = {
   description: SITE.description,
   structuredData: {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    inLanguage: "en-US",
+    "@type": "IndustrialStore",
+    inLanguage: "es-MX",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -32,11 +32,11 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es_MX",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Micrafil | Filtros Industriales: Hidráulica, Aire y Líquidos`,
+  description: "Cotice filtros hidráulicos, refacciones Donaldson y soluciones para agua y aire.",
   image: ogImageSrc,
 };
 

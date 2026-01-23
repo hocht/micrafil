@@ -29,7 +29,75 @@ const avatarSrcs: Array<string> = [
 ];
 ---
 
-<MainLayout lang="en">
+<MainLayout 
+  lang="en"
+  title="Micrafil | Industrial Filtration Solutions: Hydraulic, Air & Water"
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "IndustrialStore",
+    "inLanguage": "en-US",
+    "name": "Micrafil",
+    "description": "Comprehensive supplier of industrial filters: hydraulic, air, and water treatment.",
+    "url": "https://micrafil.com/en",
+    "telephone": "+524423560603",
+    "areaServed": ["Querétaro", "Guanajuato", "El Bajío", "Mexico"],
+    
+    // Dirección física (No cambia)
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Terra Business Park, Manzana 1er 102 A, La Pradera",
+      "addressLocality": "Santiago de Querétaro",
+      "addressRegion": "Qro",
+      "postalCode": "76269",
+      "addressCountry": "MX"
+    },
+    // Coordenadas (No cambian)
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "20.6603059",
+      "longitude": "-100.3320868"
+    },
+
+    // Catálogo en INGLÉS
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Micrafil Solutions Catalog",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Hydraulic Filtration & Lubrication",
+            "description": "Oil filters, return/suction/pressure elements. Circuit protection."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Process Liquid Filtration",
+            "description": "Nitrate elimination systems, bag filters, and potable water solutions."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Industrial Air Filtration",
+            "description": "Dust collectors, HVAC systems, and oil mist separators."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Engineering & Spare Parts",
+            "description": "Aftermarket spare parts (Donaldson compatible), custom design, and maintenance."
+          }
+        }
+      ]
+    }
+  }}>
   <AnnouncementBanner
     btnId="dismiss-button"
     btnTitle="Découvrez ScrewFast sur GitHub"

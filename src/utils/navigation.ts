@@ -1,38 +1,40 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+  { name: "Inicio", url: "/" },
+  { name: "Productos", url: "/products" },
+  { name: "Servicios", url: "/services" },
   { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Contacto", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Ecosistema",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Documentación", url: "/welcome-to-docs/" },
+      { name: "Herramientas y Equipamiento", url: "/products" },
+      { name: "Servicios de Construcción", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "Empresa",
     links: [
-      { name: "About us", url: "#" },
+      { name: "Sobre nosotros", url: "#" },
       { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "Empleos", url: "#" },
+      { name: "Clientes", url: "#" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  facebook:  "https://www.facebook.com/micrafil",
+  x:         "https://twitter.com/",
+  github:    "https://github.com/",
+  google:    "https://share.google/AI1agTEYIF9HwtOnZ",
+  slack:     "https://slack.com/",
+  instagram: "https://instagram.com/micrafil/",        // ← AGREGAR
+  linkedin:  "https://www.linkedin.com/company/micrafil/",  // ← AGREGAR
 };
 
 export default {

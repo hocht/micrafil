@@ -28,7 +28,68 @@ const avatarSrcs: Array<string> = [
 ];
 ---
 
-<MainLayout>
+<MainLayout
+title="Micrafil | Soluciones en Filtración Hidráulica, Aire y Agua"
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "IndustrialStore",
+    "name": "Micrafil",
+    "description": "Proveedor integral de filtros industriales...",
+    "url": "https://micrafil.com",
+    "telephone": "+524423560603",
+    "areaServed": ["Querétaro", "Guanajuato", "El Bajío"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Terra Business Park, Manzana 1er 102 A, La Pradera",
+      "addressLocality": "Santiago de Querétaro",
+      "addressRegion": "Qro",
+      "postalCode": "76269",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "20.6603059",
+      "longitude": "-100.3320868"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Catálogo de Soluciones Micrafil",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Filtración Hidráulica y Lubricación",
+            "description": "Filtros de aceite, elementos de retorno..."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Filtración de Líquidos y Procesos",
+            "description": "Sistemas para eliminación de nitratos..."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Filtración de Aire Industrial",
+            "description": "Colectores de polvo, sistemas HVAC..."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Ingeniería y Refacciones",
+            "description": "Venta de refacciones intercambiables..."
+          }
+        }
+      ]
+    }
+  }}>
   <AnnouncementBanner
     btnId="dismiss-button"
     btnTitle="Explore ScrewFast on GitHub"
