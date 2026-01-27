@@ -1,22 +1,22 @@
 [
   {
-    "heading": "Dedicated Teams",
-    "content": "Benefit from our committed teams who ensure your success is personal. Count on expert guidance and exceptional results throughout your project journey.",
-    "svg": "groups"
+    "heading": "Stock Programado",
+    "content": "No sufras por tiempos de entrega. Acordamos un inventario de seguridad en nuestra bodega para tus consumibles críticos.",
+    "svg": "tools"
   },
   {
-    "heading": "Simplicity and Affordability",
-    "content": "Find easy-to-use, affordable solutions with ScrewFast's line of tools and equipment. Our products make procurement simple and keep projects within budget.",
+    "heading": "Ingeniería Inversa",
+    "content": "¿Filtros descontinuados o sin marca? Replicamos cualquier elemento filtrante con las mismas dimensiones y mejor desempeño.",
+    "svg": "frame"
+  },
+  {
+    "heading": "Certeza Técnica",
+    "content": "No vendemos a ciegas. Revisamos tu requerimiento técnico antes de cotizar para garantizar que la solución no fallará en tu proceso.",
     "svg": "verified"
   },
   {
-    "heading": "Comprehensive Documentation",
-    "content": "Integrate with ease using ScrewFast's exhaustive guides and libraries. Achieve seamless product adoption with our full suite of documentation designed for your success.",
-    "svg": "books"
-  },
-  {
-    "heading": "User-Centric Design",
-    "content": "Experience the difference with ScrewFast's user-focused design — where functionality meets practicality for an enhanced work experience.",
-    "svg": "frame"
+    "heading": "Trato Personal",
+    "content": "Sin burocracia corporativa. Tendrás un ingeniero asignado que conoce tu nombre, tu planta y te acompaña en cada paso del camino.",
+    "svg": "groups"
   }
 ]

@@ -1,38 +1,37 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
-  "badge": "Best value",
-  "thirdOption": "Enterprise Solutions?",
-  "btnText": "Get a Custom Quote",
+  "title": "Tu solución empieza aquí",
+  "subTitle": "No des vueltas. Identifica tu necesidad y recibe la respuesta técnica precisa.",
+  "badge": "Opción Segura",
+  "thirdOption": "¿Tu pieza está descontinuada o es especial?",
+  "btnText": "Cotizar Fabricación a Medida",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Tengo Referencia o Marca",
+    "description": "¿Ya sabes qué buscas? Envíanos tu número de parte, marca, modelo o planos.",
+    "price": "Cotización",
+    "cents": "Ágil",
+    "billingFrequency": "Respuesta Rápida",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Cruce de referencias (Todas las marcas)",
+      "Cotización sobre especificación/muestra",
+      "Stock estratégico"
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Cotizar Ahora",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
-    "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "No sé cuál necesito / Soporte",
+    "description": "¿Tu proveedor te falló, no encuentras la pieza o tienes dudas? Te ayudamos a ubicarlo.",
+    "price": "Asesoría",
+    "cents": "Técnica",
+    "billingFrequency": "Identificación y Solución",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Rastreo de filtros en catálogos globales",
+      "Sustitución de proveedores descontinuados",
+      "Cálculo o diseño (Solo si se requiere)"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Consultar con Experto",
     "purchaseLink": "#"
   }
 }
