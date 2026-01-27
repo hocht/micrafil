@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Aquí te explicamos cómo agilizar tu solicitud y resolvemos las dudas operativas más comunes.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "¿Cómo agilizo mi cotización si YA tengo el dato?",
+      "answer": "Si conoces el número de parte o la marca, envíalo directo. Para hacerlo aún más rápido, dinos la cantidad que requieres y si es una compra única o recurrente. Si tienes la ficha técnica en PDF o una foto clara de la etiqueta, adjúntala; eso nos permite cruzar la referencia al instante y darte precio y tiempo de entrega en récord."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Cómo agilizo mi cotización si NO tengo el número de parte?",
+      "answer": "No te preocupes, pero ayúdanos a ayudarte: envíanos una foto del filtro completo (donde se vea la forma) y una foto de donde va instalado. Mide altura, diámetro exterior e interior con una regla o flexómetro. Con esos 3 datos (Foto + Medidas + Uso), nuestro equipo técnico identifica el modelo sin necesidad de códigos."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "Mi filtro es muy viejo, 'hechizo' o descontinuado, ¿tiene solución?",
+      "answer": "Sí. En estos casos la cotización es física. Necesitamos que nos traigas la muestra física a nuestro taller o solicites una recolección. Hacemos ingeniería inversa para fabricar uno nuevo con las mismas dimensiones, e incluso podemos mejorar los materiales si tu proceso actual lo requiere."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "Tengo problemas de saturación, ¿me pueden asesorar?",
+      "answer": "Claro. Si tus filtros se tapan muy rápido, no pidas 'precio del mismo'. Pide una asesoría. Analizamos tu proceso para recomendarte una media filtrante diferente que dure más tiempo. A veces el problema no es el filtro, es la selección del material incorrecto para tu fluido."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿Cuál es su zona de cobertura y tiempos de respuesta?",
+      "answer": "Para garantizar velocidad real, nos enfocamos exclusivamente en la región del Bajío (Querétaro y Guanajuato). Esto nos permite entregas personales o envíos locales mucho más rápidos que un proveedor nacional. Las cotizaciones estándar las respondemos el mismo día."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿Buscas filtros de agua para casa, restaurante o uso comercial?",
+      "answer": "Para necesidades residenciales y del sector servicios, contamos con nuestra división especializada: Micrafil Water. Encuentra equipos de Ósmosis Inversa, purificadores y refacciones domésticas directamente en micrafil.com/water."
     }
   ]
 }
