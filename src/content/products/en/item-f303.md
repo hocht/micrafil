@@ -1,10 +1,10 @@
 ---
-title: "SF-FN F303"
-description: "Hex Bolts"
+title: "Medios Filtrantes y Materias Primas"
+description: "Medios Filtrantes y Materias Primas"
 main:
   id: 4
   content: |
-    Introducing the SF-FN F303 Hex Bolts – the perfect choice for heavy-duty fastening applications. Crafted with precision and durability in mind, these hex bolts provide the strength and reliability you need for your toughest projects.
+    Es crucial conocer el tamaño y tipo de contaminante que se desea retener. Una mala selección permite que partículas pequeñas pasen sin ser capturadas. Micrafil ofrece variedad de medios para asegurar la retención correcta, ya sea en filtración superficial o profunda.
   imgCard: "@/images/product-image-4.avif"
   imgMain: "@/images/product-image-main-4.avif"
   imgAlt: "Mockup boxes of hex bolts"
@@ -14,41 +14,41 @@ tabs:
     title: "Description"
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
-    title: "Specifications"
+    title: "Catálogo de Materiales"
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Heavy-Duty Fastening Solutions"
+  title: "Selección y Eficiencia'"
   subTitle: |
-    The SF-FN F303 Hex Bolts are designed to handle the toughest fastening challenges with ease. Whether you're working on construction projects or heavy machinery, these hex bolts deliver the strength and reliability you need.
-  btnTitle: "Contact sales to learn more"
+    Es crucial conocer el tamaño y tipo de contaminante que se desea retener. Una mala selección permite que partículas pequeñas pasen sin ser capturadas. Micrafil ofrece variedad de medios para asegurar la retención correcta, ya sea en filtración superficial o profunda.
+  btnTitle: "Solicitar Solución a Medida"
   btnURL: "#"
 descriptionList:
-  - title: "Strength and Durability"
-    subTitle: "Constructed from high-quality materials, these hex bolts are built to withstand heavy loads and tough conditions."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit every time."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of applications, from construction to machinery, providing versatile fastening solutions."
+  - title: "Flujo sin Obstrucciones"
+    subTitle: "Permite un flujo adecuado evitando caídas de presión excesivas mientras restringe los contaminantes."
+  - title: "Versatilidad de Formatos"
+    subTitle: "Disponibles en pads, lienzos, tamices y gránulos, dependiendo de los requisitos de tu proceso."
+  - title: "Precisión en Retención"
+    subTitle: "Soluciones diseñadas para capturar desde partículas visibles hasta las más pequeñas según el micraje."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Made from premium-grade steel or alloy, offering exceptional strength and corrosion resistance."
-  - title: "Thread Design"
-    subTitle: "Precision-cut threads ensure optimal grip and reliability, even in high-stress environments."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of hex bolts to tackle various projects and applications."
-  - title: "Sizes"
-    subTitle: "Available in a range of sizes to accommodate different project requirements, ensuring versatility and compatibility."
+  - title: "Fibras y Textiles"
+    subTitle: "Medios flexibles ideales para retención de partículas finas y filtración de profundidad. Incluye fibras sintéticas, fibras de vidrio y materiales no tejidos."
+  - title: "Formatos de Entrega"
+    subTitle: "Adaptamos la materia prima a tu operación. Suministramos desde rollos y lienzos hasta cortes específicos (Pads) listos para instalarse."
+  #- title: "Quantity"
+    #- subTitle: "Each set includes a sufficient quantity of hex bolts to tackle various projects and applications."
+  #- title: "Sizes"
+    #- subTitle: "Available in a range of sizes to accommodate different project requirements, ensuring versatility and compatibility."
 specificationsRight:
-  - title: "Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring reliable performance under heavy loads."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in construction, machinery, automotive, and other heavy-duty applications that demand strong and reliable fastening."
+  - title: "Metales y Rígidos"
+    subTitle: "Medios de alta resistencia y lechos de filtración. Incluye mallas de acero inoxidable tejidas, láminas perforadas, carbón mineral y arenas sílicas."
+  - title: "Mecanismo de Acción"
+    subTitle: "Configuramos el medio para actuar por filtración superficial (barrera física) o filtración profunda (retención en la matriz), según el tipo de contaminante."
+  #- title: "Certifications"
+    #- subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
+  #- title: "Applications"
+    #- subTitle: "Ideal for use in construction, machinery, automotive, and other heavy-duty applications that demand strong and reliable fastening."
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"  

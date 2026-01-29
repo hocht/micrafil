@@ -1,53 +1,58 @@
 ---
-title: "SF-AB A765"
-description: "Assorted Screw Set" 
+title: "Filtración de líquidos"
+description: "Líquidos: Pureza y consistencia en cada lote" 
 main:
   id: 2
   content: |
-    Introducing the SF-AB A765 Assorted Screw Set – the ultimate solution for your screw fastening needs. This comprehensive set includes a wide variety of screws meticulously curated to tackle various projects with ease and precision.
+    Para optimizar tus procesos críticos, es esencial contar con la barrera adecuada que elimine contaminantes garantizando la calidad final de tu producto. Nuestros cartuchos ofrecen máxima resistencia y retención efectiva, permitiendo un flujo ideal con caídas de presión mínimas. Estándar o a medida: Tu proceso no se detiene.
   imgCard: "@/images/product-image-2.avif"
   imgMain: "@/images/product-image-main-2.avif"
   imgAlt: "Mockup boxes of assorted screw set"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
-    title: "Description"
+    title: "Descripción"
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
-    title: "Specifications"
+    title: "Especificaciones"
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
+    title: "Gama"
 longDescription:
-  title: "Versatile Screw Fastening Solutions"
+  title: "Integridad del Fluido"
   subTitle: |
-    The SF-AB A765 Assorted Screw Set offers unmatched versatility and convenience, making it the perfect choice for DIY enthusiasts and professionals alike. With a comprehensive selection of screws, you'll always have the right fastener for the job.
-  btnTitle: "Contact sales to learn more"
+    La limpieza de tus fluidos define la calidad de tu producto final. Los cartuchos Micrafil están diseñados para capturar partículas críticas sin estrangular el caudal de tu línea. Ya sea para agua, químicos o bebidas, aseguramos una filtración que se adapta al grado de pureza requerido por tu normativa.
+  btnTitle: "Solicitar Solución para Líquidos"
   btnURL: "#"
 descriptionList:
-  - title: "Wide Variety"
-    subTitle: "Includes a diverse range of screw types and sizes to accommodate various applications and materials."
-  - title: "Ease of Use"
-    subTitle: "Each screw is designed for effortless installation, ensuring hassle-free fastening every time."
-  - title: "Convenience"
-    subTitle: "Eliminates the need for multiple trips to the hardware store, saving time and effort on your projects."
+  - title: "Mínima Caída de Presión"
+    subTitle: "Diseño optimizado para permitir un flujo constante, reduciendo el consumo energético de tus bombas."
+  - title: "Protección del Producto"
+    subTitle: "Eliminación rigurosa de sedimentos y contaminantes que podrían alterar el sabor, color o propiedades químicas de tu lote."
+  - title: "Resistencia Química"
+    subTitle: "Selección de materiales compatibles con fluidos agresivos, temperaturas variables y condiciones industriales exigentes."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Constructed from high-quality materials such as stainless steel, ensuring durability and corrosion resistance."
-  - title: "Assortment"
-    subTitle: "Contains a generous assortment of screws, including wood screws, machine screws, and sheet metal screws."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of screws to handle a wide range of projects and tasks."
-  - title: "Sizes"
-    subTitle: "Available in various sizes to suit different project requirements, ensuring compatibility and versatility."
-tableData:
-  - feature: ["Specification", "Value"]
-    description:
-      - ["Length (mm)", "Various"]
-      - ["Weight (g)", "N/A"]
-      - ["Material", "Stainless Steel"]
-      - ["Finish", "Assorted"]
-      - ["Package Contents", "Various screws in a set"]
+  - title: "Polímeros y Sintéticos"
+    subTitle: "Soluciones versátiles para la gran mayoría de aplicaciones industriales y alimenticias. Disponibles en una amplia gama de materiales como Polipropileno (PP), Poliéster, Nylon y Microfibra sintética."
+  - title: "Configuraciones"
+    subTitle: "Fabricamos tanto filtros de línea estándar (medidas comerciales) como cartuchos especiales dimensionalmente adaptados a carcasas antiguas o importadas."
+  - title: "Aplicaciones Especiales"
+    subTitle: "Soluciones versátiles para la gran mayoría de aplicaciones industriales y alimenticias. Disponibles en una amplia gama de materiales como Polipropileno (PP), Poliéster, Nylon y Microfibra sintética."
+  - title: "Configuraciones"
+    subTitle: "Fabricamos tanto filtros de línea estándar (medidas comerciales) como cartuchos especiales dimensionalmente adaptados a carcasas antiguas o importadas."
+#tableData:
+  #- feature: ["ESPECIFICACIÓN", "Value"]
+    #- description:
+      #- ["Length (mm)", "Various"]
+      #- ["Weight (g)", "N/A"]
+      #- ["Material", "Stainless Steel"]
+      #- ["Finish", "Assorted"]
+      #- ["Package Contents", "Various screws in a set"]
+specificationsRight:
+  - title: "Versatilidad de Materiales"
+    subTitle: "Cubrimos todo el espectro de compatibilidad química. Ofrecemos desde Polipropileno (PP) para aplicaciones generales, hasta opciones en Poliéster, Nylon y Microfibra sintética para procesos que exigen resistencias específicas a solventes o temperaturas."
+  - title: "Fabricación sin Límites"
+    subTitle: "A diferencia de los catálogos rígidos, Micrafil entiende que cada planta es única. Además de nuestra línea estándar, tenemos la capacidad de ingeniería para fabricar cartuchos especiales. Si tu equipo es antiguo, importado o modificado, desarrollamos el filtro exacto para que no tengas que cambiar tu maquinaria."
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
