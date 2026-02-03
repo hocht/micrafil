@@ -22,8 +22,8 @@ longDescription:
   title: "Soluciones de Calidad Superior para Aire Limpio"
   subTitle: |
    Evita el ingreso de contaminantes sin 'ahogar' tu equipo. Nuestros cartuchos y paneles a medida garantizan un flujo de aire constante, protegiendo tu maquinaria y la calidad del ambiente.
-  btnTitle: "Consultar disponibilidad"
-  btnURL: "#"
+  btnTitle: "Solicitar Ficha Técnica"
+  btnURL: "https://wa.me/524423560603?text=Informaci%C3%B3n%20t%C3%A9cnica%3A%20Sistemas%20de%20Filtraci%C3%B3n%20de%20Aire"
 descriptionList:
   - title: "Rentabilidad y Protección de Activos"
     subTitle: "El aire sucio destruye la rentabilidad industrial. En Admisión, la abrasión reduce la vida útil de motores. En HVAC, la saturación dispara el consumo eléctrico. En Colectores, el 'blinding' frena la producción. Fabricamos la solución exacta para eliminar estos costos ocultos."

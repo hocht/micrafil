@@ -22,8 +22,8 @@ longDescription:
   title: "Desempeño y Vida Útil"
   subTitle: |
     La contaminación en sistemas hidráulicos es la causa principal de fallas en bombas y válvulas. La práctica recomendada es colocar cartuchos antes y después de cada proceso para blindar el sistema. Una filtración adecuada no solo protege los componentes costosos, sino que extiende la vida útil del fluido hidráulico.
-  btnTitle: "Cotizar Filtros Hidráulicos"
-  btnURL: "#"
+  btnTitle: "Consultar Equivalencia"
+  btnURL: "https://wa.me/524423560603?text=Consulta%20t%C3%A9cnica%3A%20Reemplazo%20Hidr%C3%A1ulico"
 descriptionList:
   - title: "Protección de Componentes"
     subTitle: "Retención efectiva de partículas que causan abrasión y fugas en sellos, cilindros y servoválvulas."

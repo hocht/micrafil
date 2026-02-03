@@ -11,19 +11,19 @@ main:
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
-    title: "Description"
+    title: "Descripción"
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
     title: "Catálogo de Materiales"
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
+    title: "Gama"
 longDescription:
   title: "Selección y Eficiencia'"
   subTitle: |
     Es crucial conocer el tamaño y tipo de contaminante que se desea retener. Una mala selección permite que partículas pequeñas pasen sin ser capturadas. Micrafil ofrece variedad de medios para asegurar la retención correcta, ya sea en filtración superficial o profunda.
-  btnTitle: "Solicitar Solución a Medida"
-  btnURL: "#"
+  btnTitle: "Consultar Disponibilidad"
+  btnURL: "https://wa.me/524423560603?text=Disponibilidad%20de%20material%3A%20Medios%20Filtrantes"
 descriptionList:
   - title: "Flujo sin Obstrucciones"
     subTitle: "Permite un flujo adecuado evitando caídas de presión excesivas mientras restringe los contaminantes."

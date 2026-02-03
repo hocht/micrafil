@@ -36,66 +36,75 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Delivering Expert Guidance",
+    title: "Diagnóstico Industrial de Alto Impacto",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "Deje de adivinar por qué sus filtros se saturan o por qué su calidad fluctúa. Nuestra asesoría es una intervención técnica basada en más de 20 años de maestría en campo. Analizamos la causa raíz y dictamos la solución exacta para optimizar su inversión desde el primer ciclo.",
     single: false,
     imgOne: blueprints,
     imgOneAlt: "Blueprints and digital tablet with construction plans.",
     imgTwo: personWorking,
     imgTwoAlt: "Person working in the office",
+    btnExists: true,
+    btnTitle: "Solicitar Auditoría",
+    btnURL: "/contact",
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Ingeniería Tangible: Manufactura Propia",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "No solo diseñamos, construimos. Nuestra planta produce soluciones robustas adaptadas a su infraestructura, incluyendo equipos como colectores de polvo, filtros de bolsa y sistemas HVAC. Al fabricar internamente, garantizamos que cada soldadura y cada costura cumplan con la especificación más crítica de todas: funcionar en su planta a la primera, sin adaptaciones improvisadas.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
     btnExists: true,
-    btnTitle: "Learn More",
-    btnURL: "#",
+    btnTitle: "Evaluar Viabilidad Técnica",
+    btnURL: "https://wa.me/524423560603",
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Ingeniería de Adaptación y Reingeniería de Equipos",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "No obligue a su planta a adaptarse a un filtro genérico. Diseñamos e integramos sistemas de filtración que se acoplan con precisión milimétrica a su infraestructura existente. Resolvemos desafíos de espacio y flujo en equipos descontinuados donde otros se rinden.",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: "Construction workers orchestrating a project",
     imgTwo: aerialView,
     imgTwoAlt: "Aerial view of managed construction",
+    btnExists: true,
+    btnTitle: "Cotizar Modernización",
+    btnURL: "/contact",
   },
   {
     isRightSection: false,
-    title: "Ensuring Long-lasting Performance",
+    title: "Blindaje Preventivo: Cero Riesgos",
     subTitle:
-      "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "El mantenimiento no es un gasto, es el seguro de su calidad e higiene empresarial. Ejecutamos programas estratégicos de mantenimiento preventivo bajo demanda, diseñados para erradicar paros no programados y blindar su continuidad operativa en Querétaro y el Bajío.",
     img: usingTools,
     imgAlt:
       "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+    btnExists: true,
+    btnTitle: "Planificar Mantenimiento",
+    btnURL: "/contact",
   },
   {
     isRightSection: true,
-    title: "Crafting Bespoke Strategies for Unique Challenges",
+    title: "Correctivo de Sistemas de Filtración",
     subTitle:
-      "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "Cuando su colector pierde succión o emite partículas, la producción y la seguridad están en riesgo. Ejecutamos intervenciones críticas para restaurar la eficiencia de captación: desde el cambio de mangas y cartuchos saturados, hasta la reparación de fugas en el cuerpo del filtro y ductería. Si el sistema falla, lo diagnosticamos, lo limpiamos y lo reparamos para que vuelva a filtrar como debe.",
     single: false,
     imgOne: progressBuilding,
     imgOneAlt: "In progress building structure",
     imgTwo: underConstruction,
     imgTwoAlt: "Brown and gray building under construction",
     btnExists: true,
-    btnTitle: "Read more",
-    btnURL: "#",
+    btnTitle: "Solicitar Soporte Técnico",
+    btnURL: "https://wa.me/524423560603",
   },
 ];
 
-const pageTitle: string = `Services | ${SITE.title}`;
+const pageTitle: string = `Servicios de Ingeniería y Manufactura | Micrafil`;
 const metaDescription =
-  "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.";
-const ogTitle = "Expert Consultation Services | ScrewFast";
+  "Soluciones integrales en filtración industrial: Desde el diseño y fabricación de filtros a medida hasta mantenimiento correctivo urgente en Querétaro y el Bajío.";
+const ogTitle = "Servicios de Filtración Industrial | Micrafil";
 ---
 
 <MainLayout
@@ -105,28 +114,28 @@ const ogTitle = "Expert Consultation Services | ScrewFast";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    url: "https://screwfast.uk/services",
-    name: "Expert Consultation Services | ScrewFast",
+    "@id": "https://micrafil.com/services",
+    url: "https://micrafil.com/services",
+    name: "Servicios de Filtración Industrial | Micrafil",
     description:
-      "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+      "Soluciones integrales en filtración industrial: Desde el diseño y fabricación de filtros a medida hasta mantenimiento correctivo urgente en Querétaro y el Bajío.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://screwfast.uk",
-      name: "ScrewFast",
+      url: "https://micrafil.com",
+      name: "Micrafil",
       description:
-        "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+        "Micrafil ofrece soluciones integrales en filtración industrial con más de 20 años de experiencia en el Bajío. Especialistas en aire, líquidos e hidráulica.",
     },
-    inLanguage: "en-US",
+    inLanguage: "es-MX",
   }}
 >
   {/* MainSection is the introductory section of the page, it also contains a CTA button */}
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="Dominio Técnico en Filtración: Ingeniería que Ejecuta"
+    subTitle="En Micrafil no solo teorizamos; materializamos soluciones. Integramos diagnóstico, diseño y manufactura propia para garantizar que su producción nunca se detenga por un filtro."
     btnExists={true}
-    btnTitle="Schedule a Consultation"
-    btnURL="#"
+    btnTitle="Agendar Diagnóstico Técnico"
+    btnURL="/contact"
   />
   {/* RightSection and LeftSection contain details about various services along with pertinent imagery.
   They alternate for variety in design.
@@ -166,22 +175,26 @@ const ogTitle = "Expert Consultation Services | ScrewFast";
   }
   {/* FeaturesStats section showcases essential stats valuable to users */}
   <FeaturesStats
-    title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
+    title="Sectores de Impacto"
+    subTitle="No existe una solución única para todos. Adaptamos nuestra ingeniería de filtración a las exigencias normativas y operativas críticas de cada industria en el Bajío."
+    mainStatTitle="20+"
+    mainStatSubTitle="años de experiencia especializada en filtración industrial"
     stats={[
       {
-        stat: "99.8%",
-        description: "project completion rate",
+        stat: "Automotriz",
+        description: "Control de neblinas de aceite y humos de soldadura en líneas de ensamblaje.",
       },
       {
-        stat: "5,000+",
-        description: "successful installations",
+        stat: "Metalmecánica",
+        description: "Captación de polvos abrasivos y virutas en procesos de maquinado CNC.",
       },
       {
-        stat: "85%",
-        description: "client growth year-over-year",
+        stat: "Alimenticia",
+        description: "Filtración sanitaria y manejo de polvos orgánicos bajo normativa.",
+      },
+      {
+        stat: "Plásticos",
+        description: "Recuperación de material y control de polvos en inyección y extrusión.",
       },
     ]}
   />
