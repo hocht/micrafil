@@ -4,10 +4,10 @@ import MainLayout from "@/layouts/MainLayout.astro";
 import ContactSection from "@components/sections/misc/ContactSection.astro";
 import { SITE } from "@data/constants";
 
-const pageTitle: string = `Contact | ${SITE.title}`;
+const pageTitle: string = `Contacto e Ingeniería | Micrafil`;
 const metaDescription =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const ogTitle = "Contact Us | ScrewFast";
+  "Conecte con nuestro departamento de ingeniería para cotizaciones, validación técnica y diseño de sistemas de filtración. Ubicados en Terra Business Park, Querétaro.";
+const ogTitle = "Hablemos de Ingeniería | Micrafil";
 ---
 
 <MainLayout
@@ -17,19 +17,19 @@ const ogTitle = "Contact Us | ScrewFast";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/contact",
-    url: "https://screwfast.uk/contact",
-    name: "Contact Us | ScrewFast",
+    "@id": "https://micrafil.com/contact",
+    url: "https://micrafil.com/contact",
+    name: "Contacto e Ingeniería | Micrafil",
     description:
-      "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.",
+      "Solicite asesoría técnica y cotizaciones para proyectos de filtración industrial. Atención directa de ingeniería en Querétaro y Bajío.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://screwfast.uk",
-      name: "ScrewFast",
+      url: "https://micrafil.com",
+      name: "Micrafil",
       description:
-        "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
+        "Micrafil ofrece ingeniería, manufactura y mantenimiento de sistemas de filtración industrial con cobertura en Querétaro y Guanajuato.",
     },
-    inLanguage: "en-US",
+    inLanguage: "es-MX",
   }}
 >
   <ContactSection />

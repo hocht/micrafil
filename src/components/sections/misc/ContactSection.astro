@@ -9,11 +9,11 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
+const title: string = "Hablemos de Ingeniería";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
-const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+  "¿Tiene un proyecto de filtración complejo o una urgencia en planta? Conecte directamente con nuestro equipo técnico. Sin burocracia, directo a la solución.";
+const formTitle: string = "Solicitud de Cotización o Asesoría";
+const formSubTitle: string = "Complete el formulario para recibir una respuesta técnica en menos de 24 horas.";
 ---
 
 <!-- Contact Us -->
@@ -44,12 +44,12 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
-                label="First Name"
+                label="Nombre"
                 name="hs-firstname-contacts"
               />
               <TextInput
                 id="hs-lastname-contacts"
-                label="Last Name"
+                label="Apellido / Empresa"
                 name="hs-firstname-contacts"
               />
             </div>
@@ -57,18 +57,18 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             <PhoneInput id="hs-phone-number" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Details"
+              label="Descripción del Requerimiento o Falla"
               name="hs-about-contacts"
             />
           </div>
 
           <div class="mt-4 grid">
-            <AuthBtn title="Send Message" />
+            <AuthBtn title="Enviar Solicitud Técnica" />
           </div>
 
           <div class="mt-3 text-center">
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              {formSubTitle}
+              Nuestros ingenieros revisan cada solicitud personalmente.
             </p>
           </div>
         </form>
@@ -77,39 +77,40 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
+          heading="Blog Técnico"
+          content="Próximamente habilitaremos esta sección con artículos y guías especializadas."
           isLinkVisible={true}
-          linkTitle="Visit guides & tutorials"
-          linkURL="#"
+          linkTitle="Disponible Próximamente"
+          linkURL="/blog"
           isArrowVisible={true}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
+          heading="Preguntas Frecuentes"
+          content="Resuelva dudas sobre tiempos de fabricación, materiales y logística."
           isLinkVisible={true}
-          linkTitle="Visit FAQ"
-          linkURL="#"
+          linkTitle="Ver FAQ"
+          linkURL="/#faq"
           isArrowVisible={true}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
+          heading="Planta y Oficinas"
+          content="Micrafil"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="Terra Business Park, Manzana 1er 102 A, La Pradera, 76269 Santiago de Querétaro, Qro."
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
+          heading="Atención Directa"
+          content="Para consultas puntuales o seguimiento de proyectos."
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
-          linkURL="#"
+          linkTitle="ventas@micrafil.com"
+          linkURL="mailto:ventas@micrafil.com"
+          isArrowVisible={true}
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
       </div>
