@@ -95,6 +95,55 @@
   --color-zinc-800: oklch(0.274 0.006 286.033);
   --color-zinc-900: oklch(0.21 0.006 285.885);
   --color-zinc-950: oklch(0.141 0.005 285.823);
+
+  /* ========================================================================
+     COLORES MICRAFIL - PALETA CORPORATIVA
+     Basado en imagen de referencia para identidad visual consistente
+     ======================================================================== */
+
+  /* ------------------------------------------------------------------------
+     AZUL MICRAFIL - Fondos y estructuras principales
+     Uso: Footer, fondos oscuros, elementos estructurales
+     Inspirado en: #0a0f1c (oscuro) y #1c3d6d (corporativo)
+     ------------------------------------------------------------------------ */
+  --color-micrafil-blue-50: oklch(0.97 0.02 264);   /* Fondo muy claro - modo día */
+  --color-micrafil-blue-100: oklch(0.92 0.05 264);  /* Bordes sutiles */
+  --color-micrafil-blue-200: oklch(0.88 0.08 264);  /* Fondos de tarjetas */
+  --color-micrafil-blue-300: oklch(0.82 0.11 264);  /* Hover states */
+  --color-micrafil-blue-400: oklch(0.79 0.13 264);  /* Elementos activos */
+  --color-micrafil-blue-500: oklch(0.42 0.11 264);  /* Azul brillante */
+  --color-micrafil-blue-600: oklch(0.37 0.11 264);  /* [PRINCIPAL] Azul corporativo #1c3d6d */
+  --color-micrafil-blue-700: oklch(0.30 0.09 264);  /* Click states */
+  --color-micrafil-blue-800: oklch(0.22 0.07 264);  /* Texto sobre claro */
+  --color-micrafil-blue-900: oklch(0.18 0.05 264);  /* [PRINCIPAL] Fondo principal #0a0f1c */
+  --color-micrafil-blue-950: oklch(0.10 0.03 264);  /* Énfasis máximo */
+
+  /* ------------------------------------------------------------------------
+     DORADO MICRAFIL - Botones y elementos de acción
+     Uso: Botones "Agendar Diagnóstico", "Contacto", CTAs, iconos
+     Inspirado en: #cbae56 (dorado corporativo)
+     ------------------------------------------------------------------------ */
+  --color-micrafil-gold-50: oklch(0.97 0.02 83);   /* Fondo muy claro - navbar */
+  --color-micrafil-gold-100: oklch(0.92 0.05 83);  /* Borde claro - navbar */
+  --color-micrafil-gold-200: oklch(0.88 0.08 83);  /* Hover states */
+  --color-micrafil-gold-300: oklch(0.82 0.11 83);  /* Estados activos */
+  --color-micrafil-gold-400: oklch(0.79 0.13 83);  /* Elementos destacados */
+  --color-micrafil-gold-500: oklch(0.78 0.14 83);  /* [PRINCIPAL] Botones #cbae56 */
+  --color-micrafil-gold-600: oklch(0.70 0.12 83);  /* Click states */
+  --color-micrafil-gold-700: oklch(0.60 0.10 83);  /* Estados presionados */
+  --color-micrafil-gold-800: oklch(0.45 0.08 83);  /* Texto sobre claro */
+  --color-micrafil-gold-900: oklch(0.35 0.06 83);  /* Énfasis */
+  --color-micrafil-gold-950: oklch(0.25 0.04 83);  /* Énfasis máximo */
+
+  /* ------------------------------------------------------------------------
+     COLORES DE INTERFAZ UI - Modo Oscuro (Guía Maestra)
+     Uso: Fondos base, tarjetas, textos para legibilidad técnica
+     Convertidos de HEX a OKLCH para precisión visual
+     ------------------------------------------------------------------------ */
+  --color-ui-base-bg: oklch(0.12 0.02 240);    /* [PRINCIPAL] Fondo base #111827 */
+  --color-ui-card-bg: oklch(0.18 0.02 240);    /* [PRINCIPAL] Fondo tarjetas #1f2937 */
+  --color-ui-text-primary: oklch(0.99 0.01 240); /* [PRINCIPAL] Texto principal #fefffe */
+  --color-ui-text-secondary: oklch(0.72 0.02 240); /* [PRINCIPAL] Texto secundario #9ca3af */
 }
 
 /*
