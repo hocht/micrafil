@@ -2,12 +2,12 @@
   {
     "heading": "Stock Programado",
     "content": "No sufras por tiempos de entrega. Acordamos un inventario de seguridad en nuestra bodega para tus consumibles críticos.",
-    "svg": "tools"
+    "svg": "books"
   },
   {
     "heading": "Ingeniería Inversa",
     "content": "¿Filtros descontinuados o sin marca? Replicamos cualquier elemento filtrante con las mismas dimensiones y mejor desempeño.",
-    "svg": "frame"
+    "svg": "tools"
   },
   {
     "heading": "Certeza Técnica",
@@ -17,6 +17,6 @@
   {
     "heading": "Trato Personal",
     "content": "Sin burocracia corporativa. Tendrás un ingeniero asignado que conoce tu nombre, tu planta y te acompaña en cada paso del camino.",
-    "svg": "groups"
+    "svg": "frame"
   }
 ]

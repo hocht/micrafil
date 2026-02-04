@@ -51,28 +51,28 @@ interface PricingSectionProps {
   <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-0">
     <!-- Starter Kit product details -->
     <div
-      class="w-full rounded-xl bg-gray-800 p-6 sm:w-1/2 sm:rounded-r-none sm:p-8 lg:w-1/3"
+      class="w-full rounded-xl bg-micrafil-blue-600 p-6 sm:w-1/2 sm:rounded-r-none sm:p-8 lg:w-1/3"
     >
       <div class="mb-4">
         <h3 class="text-2xl font-bold text-neutral-100 sm:text-3xl">
           {pricing.starterKit.name}
         </h3>
-        <p class="text-indigo-300">{pricing.starterKit.description}</p>
+        <p class="text-ui-text-secondary">{pricing.starterKit.description}</p>
       </div>
 
       <div class="mb-4">
-        <span class="text-4xl font-bold text-neutral-200"
+        <span class="text-4xl font-bold text-ui-text-primary"
           >{pricing.starterKit.price}</span
         >
-        <span class="text-lg font-bold text-neutral-300"
+        <span class="text-lg font-bold text-ui-text-secondary"
           >{pricing.starterKit.cents}</span
         >
-        <span class="ms-3 text-sm text-indigo-200"
+        <span class="ms-3 text-sm text-ui-text-secondary"
           >{pricing.starterKit.billingFrequency}</span
         >
       </div>
       <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-neutral-300">
+      <ul class="mb-6 space-y-2 text-ui-text-primary">
         {
           pricing.starterKit.features.map((feature: string) => (
             <li class="flex items-center gap-1.5">
@@ -86,13 +86,13 @@ interface PricingSectionProps {
       <!-- CTA for purchasing the product -->
       <a
         href={pricing.starterKit.purchaseLink}
-        class="block rounded-lg bg-gray-500 px-8 py-3 text-center text-sm font-bold text-gray-100 outline-hidden ring-indigo-300 transition duration-100 hover:bg-gray-600 focus-visible:ring-3 active:text-gray-300 md:text-base"
+        class="block rounded-lg bg-micrafil-gold-500 px-8 py-3 text-center text-sm font-bold text-micrafil-blue-600 outline-hidden ring-micrafil-blue-400 transition-all duration-300 hover:bg-micrafil-gold-600 hover:text-micrafil-blue-700 hover:ring-micrafil-blue-500 hover:scale-105 focus-visible:ring-3 active:bg-micrafil-gold-700 active:text-micrafil-blue-800 md:text-base"
         >{pricing.starterKit.purchaseBtnTitle}</a
       >
     </div>
     <!-- Professional Toolbox product details -->
     <div
-      class="w-full rounded-xl bg-linear-to-tr from-[#FF512F] to-[#F09819] p-6 shadow-xl sm:w-1/2 sm:p-8"
+      class="w-full rounded-xl bg-micrafil-blue-900 p-6 shadow-xl sm:w-1/2 sm:p-8"
     >
       <div
         class="mb-4 flex flex-col items-start justify-between gap-4 lg:flex-row"
@@ -101,28 +101,30 @@ interface PricingSectionProps {
           <h3 class="text-2xl font-bold text-neutral-100 sm:text-3xl">
             {pricing.professionalToolbox.name}
           </h3>
-          <p class="text-orange-200">{pricing.professionalToolbox.description}</p>
+          <p class="text-ui-text-secondary">{pricing.professionalToolbox.description}</p>
         </div>
 
+        {/* Badge temporalmente comentado para evitar confusión visual
         <span
-          class="order-first inline-block rounded-full bg-orange-200/60 bg-opacity-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-center text-orange-600 lg:order-none"
+          class="order-first inline-block rounded-full bg-micrafil-gold-500 px-3 py-1 text-xs font-bold uppercase tracking-wider text-center text-micrafil-blue-600 lg:order-none"
           >{pricing.badge}</span
         >
+        */}
       </div>
 
       <div class="mb-4">
-        <span class="text-6xl font-bold text-neutral-100"
+        <span class="text-6xl font-bold text-ui-text-primary"
           >{pricing.professionalToolbox.price}</span
         >
-        <span class="text-lg font-bold text-orange-100"
+        <span class="text-lg font-bold text-ui-text-secondary"
           >{pricing.professionalToolbox.cents}</span
         >
-        <span class="ms-3 text-orange-200"
+        <span class="ms-3 text-ui-text-secondary"
           >{pricing.professionalToolbox.billingFrequency}</span
         >
       </div>
       <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-orange-100">
+      <ul class="mb-6 space-y-2 text-ui-text-secondary">
         {
           pricing.professionalToolbox.features.map((feature: string) => (
             <li class="flex items-center gap-1.5">
@@ -136,7 +138,7 @@ interface PricingSectionProps {
       <!-- CTA for purchasing the product -->
       <a
         href={pricing.professionalToolbox.purchaseLink}
-        class="block rounded-lg bg-orange-200/40 bg-opacity-50 px-8 py-3 text-center text-sm font-bold text-neutral-100 outline-hidden ring-orange-300 transition duration-300 hover:bg-orange-300 focus-visible:ring-3 active:bg-orange-400 md:text-base"
+        class="block rounded-lg bg-micrafil-gold-500 px-8 py-3 text-center text-sm font-bold text-micrafil-blue-600 outline-hidden ring-micrafil-blue-400 transition-all duration-300 hover:bg-micrafil-gold-600 hover:text-micrafil-blue-700 hover:ring-micrafil-blue-500 hover:scale-105 focus-visible:ring-3 active:bg-micrafil-gold-700 active:text-micrafil-blue-800 md:text-base"
         >{pricing.professionalToolbox.purchaseBtnTitle}</a
       >
     </div>
