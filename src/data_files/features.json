@@ -2,21 +2,21 @@
   {
     "heading": "Stock Programado",
     "content": "No sufras por tiempos de entrega. Acordamos un inventario de seguridad en nuestra bodega para tus consumibles críticos.",
-    "svg": "books"
+    "svg": "booksBlue"
   },
   {
     "heading": "Ingeniería Inversa",
     "content": "¿Filtros descontinuados o sin marca? Replicamos cualquier elemento filtrante con las mismas dimensiones y mejor desempeño.",
-    "svg": "tools"
+    "svg": "toolsBlue"
   },
   {
     "heading": "Certeza Técnica",
     "content": "No vendemos a ciegas. Revisamos tu requerimiento técnico antes de cotizar para garantizar que la solución no fallará en tu proceso.",
-    "svg": "verified"
+    "svg": "verifiedBlue"
   },
   {
     "heading": "Trato Personal",
     "content": "Sin burocracia corporativa. Tendrás un ingeniero asignado que conoce tu nombre, tu planta y te acompaña en cada paso del camino.",
-    "svg": "frame"
+    "svg": "frameBlue"
   }
 ]
