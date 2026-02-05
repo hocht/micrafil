@@ -5,7 +5,7 @@ import EmailFooterInput from "@components/ui/forms/input/EmailFooterInput.astro"
 import esStrings from "@utils/navigation.ts";
 import enStrings from "@/utils/en/navigation";
 import Icon from "@components/ui/icons/Icon.astro";
-import BrandLogo from "@components/BrandLogo.astro";
+import MicrafilLogo from "@images/starlight/MIcrafilLogoLight.svg";
 import { SITE } from "@data/constants";
 
 // Select the correct translation based on the page's lang prop:
@@ -25,7 +25,7 @@ const crafted: string = Astro.currentLocale === "en" ? "Crafted by" : "Creado po
     <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
       <div class="col-span-full lg:col-span-1">
         <!-- Brand Logo -->
-        <BrandLogo class="h-auto w-32" />
+        <MicrafilLogo class="h-auto w-32" />
       </div>
       <!-- An array of links for Product and Company sections -->
       {
