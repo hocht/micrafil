@@ -499,7 +499,7 @@ export const Icons = {
       },
     ],
     class:
-      "absolute start-0 top-0 h-16 w-16 -translate-x-6 -translate-y-8 transform text-neutral-300 dark:text-neutral-700",
+      "absolute start-0 top-0 h-16 w-16 -translate-x-6 -translate-y-8 transform text-micrafil-gold-300 dark:text-micrafil-gold-600",
     width: 16,
     height: 16,
     viewBox: "0 0 16 16",
