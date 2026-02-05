@@ -1,209 +1,418 @@
 ---
+
 // Import the necessary components
+
 import MainLayout from "@/layouts/MainLayout.astro";
+
 import HeroSection from "@components/sections/landing/HeroSection.astro";
+
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
+
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
+
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
+
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
+
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
+
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
+
 import FAQ from "@components/sections/misc/FAQ.astro";
+
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
+
 import heroImage from "@images/hero-image.avif";
+
 import faqs from "@data/faqs.json";
+
 import features from "@data/features.json";
+
 import pricing from "@data/pricing.json";
+
 import featureImage from "@images/features-image.avif";
+
 import construction from "@images/construction-image.avif";
+
 import tools from "@images/automated-tools.avif";
+
 import dashboard from "@images/dashboard-image.avif";
+
 import { partnersData } from "@/data_files/constants";
 
+
+
 const avatarSrcs: Array<string> = [
+
   "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+
   "https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+
   "https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
+
   "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+
 ];
+
 ---
 
+
+
 <MainLayout
+
 title="Micrafil | Soluciones en Filtración Hidráulica, Aire y Agua"
+
   structuredData={{
+
     "@context": "https://schema.org",
+
     "@type": "IndustrialStore",
+
     "name": "Micrafil",
+
     "description": "Proveedor integral de filtros industriales...",
+
     "url": "https://micrafil.com",
+
     "telephone": "+524423560603",
+
     "areaServed": ["Querétaro", "Guanajuato", "El Bajío"],
+
     "address": {
+
       "@type": "PostalAddress",
+
       "streetAddress": "Terra Business Park, Manzana 1er 102 A, La Pradera",
+
       "addressLocality": "Santiago de Querétaro",
+
       "addressRegion": "Qro",
+
       "postalCode": "76269",
+
       "addressCountry": "MX"
+
     },
+
     "geo": {
+
       "@type": "GeoCoordinates",
+
       "latitude": "20.6603059",
+
       "longitude": "-100.3320868"
+
     },
+
     "hasOfferCatalog": {
+
       "@type": "OfferCatalog",
+
       "name": "Catálogo de Soluciones Micrafil",
+
       "itemListElement": [
+
         {
+
           "@type": "Offer",
+
           "itemOffered": {
+
             "@type": "Product",
+
             "name": "Filtración Hidráulica y Lubricación",
+
             "description": "Filtros de aceite, elementos de retorno..."
+
           }
+
         },
+
         {
+
           "@type": "Offer",
+
           "itemOffered": {
+
             "@type": "Product",
+
             "name": "Filtración de Líquidos y Procesos",
+
             "description": "Sistemas para eliminación de nitratos..."
+
           }
+
         },
+
         {
+
           "@type": "Offer",
+
           "itemOffered": {
+
             "@type": "Product",
+
             "name": "Filtración de Aire Industrial",
+
             "description": "Colectores de polvo, sistemas HVAC..."
+
           }
+
         },
+
         {
+
           "@type": "Offer",
+
           "itemOffered": {
+
             "@type": "Service",
+
             "name": "Ingeniería y Refacciones",
+
             "description": "Venta de refacciones intercambiables..."
+
           }
+
         }
+
       ]
+
     }
+
   }}>
+
   <AnnouncementBanner
+
     btnId="dismiss-button"
+
     btnTitle="Consulta a un Experto"
+
     url="https://wa.me/5214423560603"
+
   />
+
+
 
   <HeroSection
+
     title=`Ingeniería en  <span
+
         class="text-micrafil-blue-600 dark:text-micrafil-blue-500">Filtración Industrial</span>`
+
     subTitle="Distribuimos marcas líderes y fabricamos soluciones a medida. Respaldamos cada suministro con 20 años de experiencia y asesoría técnica especializada para optimizar tu proceso"
+
     primaryBtn="Ver Soluciones"
+
     primaryBtnURL="/products"
+
     secondaryBtn="Hablar con un Ingeniero"
+
     secondaryBtnURL="/contact"
+
     withReview={false}
+
     avatars={avatarSrcs}
+
     rating=`<span class="font-bold">4.8</span> / 5`
+
     starCount={4}
+
     reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+
     src={heroImage}
+
     alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+
   />
+
+
 
   <ClientsSection
+
     title="Distribuimos las Mejores Marcas"
+
     subTitle="Filtros originales y equivalentes de alta ingeniería."
+
     partners={partnersData}
+
   />
+
+
 
   <FeaturesGeneral
+
     title="Soluciones Técnicas, No Parches"
+
     subTitle="En Micrafil no solo vendemos filtros. Resolvemos los retos de pureza y eficiencia que detienen tu planta."
+
     src={featureImage}
+
     alt="ScrewFast products in floating boxes"
+
     features={features}
+
   />
+
+
 
   <FeaturesNavs
-    title=`Soluciones integrales: <span class="text-micrafil-gold-500 dark:text-micrafil-gold-400">Distribución, Fabricación y Servicios</span> para la exigencia industrial.`
+
+    title=`Soluciones integrales: <span class="text-yellow-500 dark:text-yellow-400">Distribución, Fabricación y Servicios</span> para la exigencia industrial.`
+
     tabs={[
+
       {
+
         heading: "Suministro de Marcas Líderes",
+
         content:
+
           `Creamos un stock de seguridad exclusivo para ti. Garantizamos el abasto de tus consumibles de alta rotación como BOLSAS y CARTUCHOS justo cuando los necesitas, eliminando tiempos de espera críticos.`,
+
         svg: "dashboard",
+
         src: tools,
+
         alt: "Yellow and black heavy equipment on brown grass field",
+
         first: true,
+
       },
+
       {
+
         heading: "Ingeniería y Manufactura a Medida",
+
         content:
+
           "Cuando el catálogo no es suficiente, nosotros lo fabricamos. Diseñamos y producimos carcasas, skids y elementos filtrantes en acero inoxidable, adaptados milimétricamente a las conexiones y exigencias de tu maquinaria.",
-        svg: "tools",
+
+        svg: "toolsWhite",
+
         src: dashboard,
+
         alt: "A screenshot or graphic representation of the intuitive dashboard",
+
         second: true,
+
       },
+
       {
+
         heading: "Soporte Técnico en Planta",
+
         content:
+
           "No solo entregamos cajas. Nuestros ingenieros visitan tu planta para realizar auditorías, análisis de fluidos y soporte en la instalación, asegurando que cada filtro opere con la máxima eficiencia y rentabilidad.",
+
         svg: "verified",
+
         src: construction,
+
         alt: "Gray metal building frame near tower crane during daytime",
+
       },
+
     ]}
+
   />
 
+
+
   <TestimonialsSection
+
     title="Resultados Comprobados"
+
     subTitle="En Micrafil no solo vendemos filtros; transformamos la rentabilidad de tu planta. Aquí la prueba de cómo la ingeniería aplicada reduce costos operativos."
+
     ;
+
     testimonials={[
+
       {
+
         content:
+
           "Importábamos filtros completos de EE.UU. a un costo altísimo. Micrafil no solo igualó la calidad original, sino que rediseñó el sistema para permitir recambios solo de la media filtrante. Mantuvimos la eficiencia y redujimos nuestros costos anuales en un 80%.",
+
         author: "Ing. Emilia Merino",
+
         role: "Gerente de Producción | Star Su Federal",
+
         avatarSrc:
+
           "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+
       },
+
     ]}
+
     statistics={[
+
       {
+
         count: "+20",
+
         description:
+
           "Años de experiencia en el Bajío.",
+
       },
+
       {
+
         count: "+30",
+
         description:
+
           "Marcas líderes distribuidas.",
+
       },
+
       // Comentadas temporalmente - estadísticas 3 y 4
+
       //{
+
       //  count: "15.3%",
+
       //  description:
+
       //    "Reducción en costos de mantenimiento reportada por clientes a largo plazo",
+
       //},
+
       //{
+
       //  count: "2x",
+
       //  description: "quicker assembly using innovative fastening solutions",
+
       //},
+
     ]}
+
   />
+
+
 
   <PricingSection pricing={pricing} />
 
+
+
   <FAQ title="¿Aún no lo <br/>tienes claro?" faqs={faqs} />
 
+
+
   <HeroSectionAlt
+
     title="No detengas tu producción"
+
     subTitle="Tienes a los expertos cerca. Experimenta la tranquilidad de trabajar con un aliado local, técnico y ágil."
+
     url="https://wa.me/5214423560603"
+
   />
+
 </MainLayout>
+
