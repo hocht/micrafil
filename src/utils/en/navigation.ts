@@ -9,20 +9,19 @@ const navBarLinks = [
 
 const footerLinks = [
   {
-    section: "Écosystème",
+    section: "Solutions",
     links: [
-      { name: "Documentation", url: "/fr/welcome-to-docs/" },
-      { name: "Outils et Équipements", url: "/fr/products" },
-      { name: "Services de Construction", url: "/fr/services" },
+      { name: "Filtration Lines", url: "/en/products" },
+      { name: "Engineering Services", url: "/en/services" },
+      { name: "Experts", url: "#", badge: "Coming Soon" },
     ],
   },
   {
-    section: "Société",
+    section: "Micrafil",
     links: [
-      { name: "À propos de nous", url: "#" },
-      { name: "Blog", url: "/fr/blog" },
-      { name: "Carrières", url: "#" },
-      { name: "Clients", url: "#" },
+      { name: "Our Experience", url: "/en/services" },
+      { name: "Testimonials", url: "/en/products#testimonials" },
+      { name: "Technical Blog", url: "/en/blog", badge: "Coming Soon" },
     ],
   },
 ];

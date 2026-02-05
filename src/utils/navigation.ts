@@ -9,20 +9,19 @@ const navBarLinks = [
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosistema",
+    section: "Soluciones",
     links: [
-      { name: "Documentación", url: "/welcome-to-docs/" },
-      { name: "Herramientas y Equipamiento", url: "/products" },
-      { name: "Servicios de Construcción", url: "/services" },
+      { name: "Líneas de Filtración", url: "/products" },
+      { name: "Servicios de Ingeniería", url: "/services" },
+      { name: "Expertos", url: "#", badge: "Próximamente" },
     ],
   },
   {
-    section: "Empresa",
+    section: "Micrafil",
     links: [
-      { name: "Sobre nosotros", url: "#" },
-      { name: "Blog", url: "/blog" },
-      { name: "Empleos", url: "#" },
-      { name: "Clientes", url: "#" },
+      { name: "Nuestra Experiencia", url: "/services" },
+      { name: "Testimonios", url: "/products#testimonials" },
+      { name: "Blog Técnico", url: "/blog", badge: "Próximamente" },
     ],
   },
 ];
