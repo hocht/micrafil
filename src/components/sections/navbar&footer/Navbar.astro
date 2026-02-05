@@ -7,6 +7,7 @@ import esStrings from "@utils/navigation.ts";
 import enStrings from "@/utils/en/navigation";
 import BrandLogo from "@components/BrandLogo.astro";
 import LanguagePicker from "@components/ui/LanguagePicker.astro";
+import Icon from "@components/ui/icons/Icon.astro";
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "en" ? enStrings : esStrings;
@@ -90,7 +91,20 @@ const homeUrl = Astro.currentLocale === "en" ? "/en" : "/";
           <NavLink url={link.url} name={link.name} />
         ))}
 
+        <!-- REEMPLAZO TEMPORAL: Botón de login comentado, reemplazado por enlace a Micrafil Water
         <Authentication />
+        -->
+        <!-- Enlace a Micrafil Water con mismo diseño que el botón de login -->
+        <a 
+          href="https://micrafil.com/water" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="flex items-center gap-x-2 text-base md:text-sm font-medium text-white dark:text-neutral-400 ring-zinc-500 transition duration-300 focus-visible:ring-3 outline-hidden hover:text-[#00a6e8] dark:hover:text-[#00a6e8] dark:border-neutral-700 dark:ring-zinc-200 dark:focus:outline-hidden md:my-6 md:border-s md:border-neutral-300 md:ps-6 2xl:text-base"
+          aria-label="Micrafil Water"
+        >
+          <Icon name="waterDrop" class="h-10 w-10 shrink-0" />
+          Micrafil Water
+        </a>
         <LanguagePicker />
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
