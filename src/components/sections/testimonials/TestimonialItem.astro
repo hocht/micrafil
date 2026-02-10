@@ -23,15 +23,17 @@ interface Props {
 
   <div class="mt-6">
     <div class="flex items-center">
-      <div class="shrink-0">
-        <Image
-          class="h-8 w-8 rounded-full"
-          src={avatarSrc}
-          alt="Avatar Description"
-          loading={"eager"}
-          inferSize
-        />
-      </div>
+      {avatarSrc && avatarSrc !== "" && avatarSrc !== undefined ? (
+        <div class="shrink-0">
+          <Image
+            class="h-8 w-8 rounded-full"
+            src={avatarSrc}
+            alt="Avatar Description"
+            loading={"eager"}
+            inferSize
+          />
+        </div>
+      ) : null}
       <div class="ms-4 grow">
         <div class="font-bold text-neutral-800 dark:text-neutral-200">
           {author}
