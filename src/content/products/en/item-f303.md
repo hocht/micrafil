@@ -5,8 +5,8 @@ main:
   id: 4
   content: |
     Es crucial conocer el tamaño y tipo de contaminante que se desea retener. Una mala selección permite que partículas pequeñas pasen sin ser capturadas. Micrafil ofrece variedad de medios para asegurar la retención correcta, ya sea en filtración superficial o profunda.
-  imgCard: "@/images/product-image-4.avif"
-  imgMain: "@/images/product-image-main-4.avif"
+  imgCard: "@/images/MediosFiltrantes.png"
+  imgMain: "@/images/MediosFiltrantes.png"
   imgAlt: "Mockup boxes of hex bolts"
 tabs:
   - id: "tabs-with-card-item-1"

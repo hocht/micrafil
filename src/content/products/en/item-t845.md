@@ -5,8 +5,8 @@ main:
   id: 1
   content: |
     El aire está comúnmente contaminado con partículas que perjudican el funcionamiento de los equipos: desde polvo, polen y hollín, hasta impurezas grandes como insectos y restos de hojas. Nuestros cartuchos permiten el flujo sin restricciones, protegiendo tanto los procesos industriales como la salud humana.
-  imgCard: "@/images/product-image-1.avif"
-  imgMain: "@/images/product-image-main-1.avif"
+  imgCard: "@/images/Aire.png"
+  imgMain: "@/images/Aire.png"
   imgAlt: "Mockup boxes of machine screws set"
 tabs:
   - id: "tabs-with-card-item-1"

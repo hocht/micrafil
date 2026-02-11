@@ -5,8 +5,8 @@ main:
   id: 2
   content: |
     Para optimizar tus procesos críticos, es esencial contar con la barrera adecuada que elimine contaminantes garantizando la calidad final de tu producto. Nuestros cartuchos ofrecen máxima resistencia y retención efectiva, permitiendo un flujo ideal con caídas de presión mínimas. Estándar o a medida: Tu proceso no se detiene.
-  imgCard: "@/images/product-image-2.avif"
-  imgMain: "@/images/product-image-main-2.avif"
+  imgCard: "@/images/liquidos.png"
+  imgMain: "@/images/liquidos.png"
   imgAlt: "Mockup boxes of assorted screw set"
 tabs:
   - id: "tabs-with-card-item-1"

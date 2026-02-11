@@ -5,8 +5,8 @@ main:
   id: 3
   content: |
     Los fluidos hidráulicos requieren una atención meticulosa. Proporcionamos la filtración crítica necesaria para evitar que impurezas y contaminantes desgasten tus equipos, garantizando potencia constante y, simultáneamente, controlando las emisiones de neblina en el entorno de trabajo.
-  imgCard: "@/images/product-image-3.avif"
-  imgMain: "@/images/product-image-main-3.avif"
+  imgCard: "@/images/hidraulicos.png"
+  imgMain: "@/images/hidraulicos.png"
   imgAlt: "Mockup boxes of a tap bolts and nuts set"
 tabs:
   - id: "tabs-with-card-item-1"
