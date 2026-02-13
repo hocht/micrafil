@@ -50,6 +50,6 @@ specificationsRight:
   #- title: "Suitable Applications"
     #- subTitle: "Ideal for a wide array of uses, from construction environments to mechanical assemblies that demand strong and secure joints."
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"  
+  first: "@/images/GamaHidraulicos1.png"
+  second: "@/images/GamaHidraulicos2.png"  
 ---

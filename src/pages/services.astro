@@ -7,14 +7,14 @@ import RightSection from "@components/ui/blocks/RightSection.astro";
 import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
 
 // Import necessary images
-import blueprints from "@images/blueprints-image.avif";
-import personWorking from "@images/person-working.avif";
-import beforeAfter from "@images/before-after.avif";
-import constructionWorkers from "@images/construction-workers.avif";
-import aerialView from "@images/aerial-view.avif";
-import usingTools from "@images/using-tools.avif";
-import progressBuilding from "@images/progress-building.avif";
-import underConstruction from "@images/under-construction.avif";
+import diagnostico1 from "@images/Diagnostico1.png";
+import diagnostico2 from "@images/Diagnostico2.png";
+import ingenieriaTangible from "@images/IngenieriaTangible.png";
+import adaptacion1 from "@images/Adaptacion.png";
+import adaptacion2 from "@images/Adaptacion2.png";
+import blindaje from "@images/Blindaje.png";
+import correctivo1 from "@images/Correctivo.png";
+import correctivo2 from "@images/Correctivo2.png";
 import { SITE } from "@data/constants";
 
 interface Article {
@@ -40,10 +40,10 @@ const articles: Article[] = [
     subTitle:
       "Deje de adivinar por qué sus filtros se saturan o por qué su calidad fluctúa. Nuestra asesoría es una intervención técnica basada en más de 20 años de maestría en campo. Analizamos la causa raíz y dictamos la solución exacta para optimizar su inversión desde el primer ciclo.",
     single: false,
-    imgOne: blueprints,
-    imgOneAlt: "Blueprints and digital tablet with construction plans.",
-    imgTwo: personWorking,
-    imgTwoAlt: "Person working in the office",
+    imgOne: diagnostico1,
+    imgOneAlt: "Diagnóstico industrial de alto impacto",
+    imgTwo: diagnostico2,
+    imgTwoAlt: "Análisis técnico de sistemas de filtración",
     btnExists: true,
     btnTitle: "Solicitar Auditoría",
     btnURL: "/contact",
@@ -53,8 +53,8 @@ const articles: Article[] = [
     title: "Ingeniería Tangible: Manufactura Propia",
     subTitle:
       "No solo diseñamos, construimos. Nuestra planta produce soluciones robustas adaptadas a su infraestructura, incluyendo equipos como colectores de polvo, filtros de bolsa y sistemas HVAC. Al fabricar internamente, garantizamos que cada soldadura y cada costura cumplan con la especificación más crítica de todas: funcionar en su planta a la primera, sin adaptaciones improvisadas.",
-    img: beforeAfter,
-    imgAlt: "Construction site before and after",
+    img: ingenieriaTangible,
+    imgAlt: "Ingeniería tangible y manufactura propia de sistemas de filtración",
     btnExists: true,
     btnTitle: "Evaluar Viabilidad Técnica",
     btnURL: "https://wa.me/524423560603",
@@ -65,10 +65,10 @@ const articles: Article[] = [
     subTitle:
       "No obligue a su planta a adaptarse a un filtro genérico. Diseñamos e integramos sistemas de filtración que se acoplan con precisión milimétrica a su infraestructura existente. Resolvemos desafíos de espacio y flujo en equipos descontinuados donde otros se rinden.",
     single: false,
-    imgOne: constructionWorkers,
-    imgOneAlt: "Construction workers orchestrating a project",
-    imgTwo: aerialView,
-    imgTwoAlt: "Aerial view of managed construction",
+    imgOne: adaptacion1,
+    imgOneAlt: "Ingeniería de adaptación y reingeniería de equipos",
+    imgTwo: adaptacion2,
+    imgTwoAlt: "Sistemas de filtración adaptados a infraestructura existente",
     btnExists: true,
     btnTitle: "Cotizar Modernización",
     btnURL: "/contact",
@@ -78,9 +78,8 @@ const articles: Article[] = [
     title: "Blindaje Preventivo: Cero Riesgos",
     subTitle:
       "El mantenimiento no es un gasto, es el seguro de su calidad e higiene empresarial. Ejecutamos programas estratégicos de mantenimiento preventivo bajo demanda, diseñados para erradicar paros no programados y blindar su continuidad operativa en Querétaro y el Bajío.",
-    img: usingTools,
-    imgAlt:
-      "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+    img: blindaje,
+    imgAlt: "Blindaje preventivo y mantenimiento de sistemas de filtración",
     btnExists: true,
     btnTitle: "Planificar Mantenimiento",
     btnURL: "/contact",
@@ -91,10 +90,10 @@ const articles: Article[] = [
     subTitle:
       "Cuando su colector pierde succión o emite partículas, la producción y la seguridad están en riesgo. Ejecutamos intervenciones críticas para restaurar la eficiencia de captación: desde el cambio de mangas y cartuchos saturados, hasta la reparación de fugas en el cuerpo del filtro y ductería. Si el sistema falla, lo diagnosticamos, lo limpiamos y lo reparamos para que vuelva a filtrar como debe.",
     single: false,
-    imgOne: progressBuilding,
-    imgOneAlt: "In progress building structure",
-    imgTwo: underConstruction,
-    imgTwoAlt: "Brown and gray building under construction",
+    imgOne: correctivo1,
+    imgOneAlt: "Correctivo de sistemas de filtración",
+    imgTwo: correctivo2,
+    imgTwoAlt: "Reparación y mantenimiento correctivo de equipos",
     btnExists: true,
     btnTitle: "Solicitar Soporte Técnico",
     btnURL: "https://wa.me/524423560603",

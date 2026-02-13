@@ -54,6 +54,6 @@ specificationsRight:
   - title: "Fabricación sin Límites"
     subTitle: "A diferencia de los catálogos rígidos, Micrafil entiende que cada planta es única. Además de nuestra línea estándar, tenemos la capacidad de ingeniería para fabricar cartuchos especiales. Si tu equipo es antiguo, importado o modificado, desarrollamos el filtro exacto para que no tengas que cambiar tu maquinaria."
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"
+  first: "@/images/GamaLiquidos1.png"
+  second: "@/images/GamaLiquidos2.png"
 ---
