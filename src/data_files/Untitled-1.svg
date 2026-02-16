@@ -1,0 +1,22 @@
+{
+  icon: `<svg
+      class="mx-auto h-auto w-32 py-3 sm:mx-0 lg:w-40 lg:py-5"
+      viewBox="0 0 200 70"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+    >
+      <title>Wix Filters</title>
+      <g stroke="#1c3d6d" stroke-width="2" fill="none">
+        <path d="M10.5 15 L25 55 L39.5 15 L54 55 L68.5 15" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M85 15 V55" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M110 15 L140 55 M140 15 L110 55" stroke-linejoin="round" stroke-linecap="round"/>
+        
+        <g stroke-width="1.5">
+           <path d="M155 18 H180 M155 18 V30 M155 24 H175" /> <path d="M155 35 V52" /> <path d="M165 35 V52 H175" /> <path d="M185 35 H195 M190 35 V52" /> </g>
+        
+        <rect x="2" y="2" width="196" height="66" rx="4" stroke-width="1.5" />
+      </g>
+    </svg>`,
+  name: "wix-filters",
+  href: "https://www.wixfilters.com",
+}
