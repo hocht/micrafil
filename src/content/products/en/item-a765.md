@@ -32,14 +32,12 @@ descriptionList:
   - title: "Resistencia Química"
     subTitle: "Selección de materiales compatibles con fluidos agresivos, temperaturas variables y condiciones industriales exigentes."
 specificationsLeft:
-  - title: "Polímeros y Sintéticos"
-    subTitle: "Soluciones versátiles para la gran mayoría de aplicaciones industriales y alimenticias. Disponibles en una amplia gama de materiales como Polipropileno (PP), Poliéster, Nylon y Microfibra sintética."
-  - title: "Configuraciones"
-    subTitle: "Fabricamos tanto filtros de línea estándar (medidas comerciales) como cartuchos especiales dimensionalmente adaptados a carcasas antiguas o importadas."
-  - title: "Aplicaciones Especiales"
-    subTitle: "Soluciones versátiles para la gran mayoría de aplicaciones industriales y alimenticias. Disponibles en una amplia gama de materiales como Polipropileno (PP), Poliéster, Nylon y Microfibra sintética."
-  - title: "Configuraciones"
-    subTitle: "Fabricamos tanto filtros de línea estándar (medidas comerciales) como cartuchos especiales dimensionalmente adaptados a carcasas antiguas o importadas."
+  - title: "Filtros Cartucho"
+    subTitle: "Nuestra línea de mayor precisión para la retención de partículas finas. Fabricamos soluciones que garantizan un flujo ideal con caídas de presión mínimas.\n\nMateriales disponibles: Polipropileno (PP), Poliéster, Nylon y Microfibra sintética.\n\nEspecialidad: Además de la línea estándar, fabricamos cartuchos especiales dimensionalmente adaptados a las necesidades específicas de su equipo."
+  - title: "Filtros Bolsa"
+    subTitle: "Soluciones versátiles para el manejo de grandes volúmenes de líquidos, optimizando la captura y retención de contaminantes.\n\nMateriales: Disponibles en fibras sintéticas de alta resistencia química y térmica.\n\nAplicación: Ideales para procesos que requieren un reemplazo ágil y una limpieza efectiva del fluido."
+  - title: "Filtros Canasta"
+    subTitle: "Diseñados para la protección de equipos críticos, actuando como la primera barrera contra contaminantes sólidos.\n\nConstrucción: Fabricados para ofrecer máxima resistencia mecánica y durabilidad en condiciones industriales."
 #tableData:
   #- feature: ["ESPECIFICACIÓN", "Value"]
     #- description:
@@ -49,10 +47,10 @@ specificationsLeft:
       #- ["Finish", "Assorted"]
       #- ["Package Contents", "Various screws in a set"]
 specificationsRight:
-  - title: "Versatilidad de Materiales"
-    subTitle: "Cubrimos todo el espectro de compatibilidad química. Ofrecemos desde Polipropileno (PP) para aplicaciones generales, hasta opciones en Poliéster, Nylon y Microfibra sintética para procesos que exigen resistencias específicas a solventes o temperaturas."
-  - title: "Fabricación sin Límites"
-    subTitle: "A diferencia de los catálogos rígidos, Micrafil entiende que cada planta es única. Además de nuestra línea estándar, tenemos la capacidad de ingeniería para fabricar cartuchos especiales. Si tu equipo es antiguo, importado o modificado, desarrollamos el filtro exacto para que no tengas que cambiar tu maquinaria."
+  - title: "Housing's"
+    subTitle: "Suministramos el soporte robusto necesario para instalar sus medios filtrantes, asegurando un sello hermético y una operación segura.\n\nVersatilidad: Diseñados para integrarse a sistemas existentes o nuevos proyectos de filtración."
+  - title: "Medios Filtrantes y Materiales"
+    subTitle: "Contamos con una amplia gama de insumos para ajustar el grado de filtración a su necesidad puntual:\n\nSintéticos: Polipropileno, Poliéster, Nylon y Microfibra sintética.\n\nMinerales y Absorbentes: Arenas, sílicas y carbón activado.\n\nMetálicos: Mallas de acero inoxidable."
 blueprints:
   first: "@/images/GamaLiquidos1.png"
   second: "@/images/GamaLiquidos2.png"
