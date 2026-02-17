@@ -21,7 +21,7 @@ tabs:
 longDescription:
   title: "Integridad del Fluido"
   subTitle: |
-    La limpieza de tus fluidos define la calidad de tu producto final. Los cartuchos Micrafil están diseñados para capturar partículas críticas sin estrangular el caudal de tu línea. Ya sea para agua, químicos o bebidas, aseguramos una filtración que se adapta al grado de pureza requerido por tu normativa.
+    Evita fallos operativos por contaminación. Nuestras soluciones de filtración de líquidos están desarrolladas para proteger tu maquinaria y asegurar la calidad del producto final. Fabricamos tecnología a medida para el manejo de agua de proceso, químicos y lubricantes, optimizando la eficiencia de cada gota en tu sistema.
   btnTitle: "Cotizar Consumibles"
   btnURL: "https://wa.me/524423560603?text=Solicitud%20de%20cotizaci%C3%B3n%3A%20Filtraci%C3%B3n%20de%20L%C3%ADquidos"
 descriptionList:
