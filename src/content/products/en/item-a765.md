@@ -7,7 +7,7 @@ main:
     Para optimizar tus procesos críticos, es esencial contar con la barrera adecuada que elimine contaminantes garantizando la calidad final de tu producto. Nuestros cartuchos ofrecen máxima resistencia y retención efectiva, permitiendo un flujo ideal con caídas de presión mínimas. Estándar o a medida: Tu proceso no se detiene.
   imgCard: "@/images/liquidos.png"
   imgMain: "@/images/liquidos.png"
-  imgAlt: "Mockup boxes of assorted screw set"
+  imgAlt: "Sistemas de filtración industrial de líquidos Micrafil"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -27,8 +27,8 @@ longDescription:
 descriptionList:
   - title: "Mínima Caída de Presión"
     subTitle: "Diseño optimizado para permitir un flujo constante, reduciendo el consumo energético de tus bombas."
-  - title: "Protección del Producto"
-    subTitle: "Eliminación rigurosa de sedimentos y contaminantes que podrían alterar el sabor, color o propiedades químicas de tu lote."
+  - title: "Calidad y Conformidad"
+    subTitle: "Eliminación crítica de sólidos y sedimentos para asegurar que el fluido cumpla con las normativas de pureza y especificaciones técnicas de su proceso."
   - title: "Resistencia Química"
     subTitle: "Selección de materiales compatibles con fluidos agresivos, temperaturas variables y condiciones industriales exigentes."
 specificationsLeft:
