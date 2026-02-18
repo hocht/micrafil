@@ -33,26 +33,26 @@ descriptionList:
     subTitle: "Captura de partículas finas generadas por el mecanizado, mejorando la calidad del aire en planta."
 specificationsLeft:
   - title: "Filtros Cartucho Microfibras y Acero Inoxidable"
-    subTitle: "Esta es nuestra línea todoterreno para hidráulicos. Aquí combinamos dos mundos según lo que necesites filtrar:
+    subTitle: "Esta es nuestra linea exclusiva para hidráulicos. Aquí combinamos dos mundos según lo que necesites filtrar:
 
-Limpieza Profunda (Sintéticos): Cuando el objetivo es atrapar hasta la partícula más fina, usamos medios de microfibra de vidrio o sintéticos (como poliéster). Son ideales para dejar el aceite impecable.
+Limpieza Profunda (Sintéticos): Cuando el objetivo es atrapar hasta la partícula más fina, usamos medios de microfibra de vidrio o sintéticos. Son ideales para dejar el aceite impecable.
 
 Resistencia Total (Acero): Si tu proceso es rudo, fabricamos cartuchos 100% en acero inoxidable. Funcionan básicamente como una coladera de alta ingeniería: son lavables y aguantan todo. Manejamos cerca de 30 tipos de malla, desde las más abiertas (tipo criba) hasta las más cerradas, para ajustarnos a lo que tu sistema permita pasar."
   - title: "Filtros Coalescentes"
     subTitle: "Estos son los expertos en atrapar lo que casi no se ve.
 
-El Reto: Procesos como corte láser, pulido, molienda o torneado generan humos y neblinas con partículas diminutas (de 0.07 a 20 micras) que son difíciles de detener.
+El Reto: Procesos como corte láser, pulido, molienda o torneado generan humos y neblinas con partículas microscopicas que son difíciles de detener.
 
-La Solución: Nuestros filtros usan fibra de vidrio diseñada para que esas partículas de aceite 'coalescan' (se junten entre sí). Así, logramos separar el aceite del aire, recuperando el fluido y manteniendo limpio tu ambiente de trabajo."
+La Solución: Nuestros filtros usan microfibras diseñadas para que esas partículas de aceite 'coalescan'. Así, logramos separar el aceite del aire, recuperando el fluido y manteniendo limpio tu ambiente de trabajo."
+  - title: "Filtros Separadores"
+    subTitle: "El paso final para cerrar el ciclo.
+
+Una vez que el filtro coalescente hizo su trabajo agrupando las gotas, el separador se asegura de retirarlas definitivamente del flujo. Es la garantía de que tu sistema entregue aire o fluido libre de contaminación aguas abajo."
   #- title: "Quantity Per Set"
     #- subTitle: "The set includes a balanced selection of 25 tap bolts and 25 matching nuts."
   #- title: "Size Assortment"
     #- subTitle: "Features a comprehensive range of sizes to cater to various project requirements, ensuring compatibility and versatility."
 specificationsRight:
-  - title: "Filtros Separadores"
-    subTitle: "El paso final para cerrar el ciclo.
-
-Una vez que el filtro coalescente hizo su trabajo agrupando las gotas, el separador se asegura de retirarlas definitivamente del flujo. Es la garantía de que tu sistema entregue aire o fluido libre de contaminación aguas abajo."
   - title: "¿Estándar o A la Medida?"
     subTitle: "En Micrafil no nos complicamos si tu maquinaria es importada o tiene medidas raras:
 
