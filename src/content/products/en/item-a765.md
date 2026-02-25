@@ -48,7 +48,7 @@ specificationsLeft:
       #- ["Package Contents", "Various screws in a set"]
 specificationsRight:
   - title: "Housing's"
-    subTitle: "Suministramos el soporte robusto necesario para instalar sus medios filtrantes, asegurando un sello hermético y una operación segura.\n\nVersatilidad: Diseñados para integrarse a sistemas existentes o nuevos proyectos de filtración."
+    subTitle: "Suministramos el recipiente necesario para instalar sus cartuchos filtrantes, asegurando un sello hermético y una operación segura.\n\nVersatilidad: Diseñados para integrarse a sistemas existentes o nuevos proyectos de filtración."
   - title: "Medios Filtrantes y Materiales"
     subTitle: "Contamos con una amplia gama de insumos para ajustar el grado de filtración a su necesidad puntual:\n\nSintéticos: Polipropileno, Poliéster, Nylon y Microfibra sintética.\n\nMinerales y Absorbentes: Arenas, sílicas y carbón activado.\n\nMetálicos: Mallas de acero inoxidable."
 blueprints:

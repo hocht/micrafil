@@ -26,7 +26,7 @@ longDescription:
   btnURL: "https://wa.me/524423560603?text=Informaci%C3%B3n%20t%C3%A9cnica%3A%20Sistemas%20de%20Filtraci%C3%B3n%20de%20Aire"
 descriptionList:
   - title: "Rentabilidad y Protección de Activos"
-    subTitle: "El aire sucio destruye la rentabilidad industrial. En Admisión, la abrasión reduce la vida útil de motores. En HVAC, la saturación dispara el consumo eléctrico. En Colectores, el 'blinding' frena la producción. Fabricamos la solución exacta para eliminar estos costos ocultos."
+    subTitle: "El aire sucio destruye la rentabilidad industrial. En Admisión, la abrasión reduce la vida útil de motores. En HVAC, la saturación dispara el consumo eléctrico. En Colectores, la saturación frena la producción. Fabricamos la solución exacta para eliminar estos costos ocultos."
   - title: "Vida Útil de Maquinaria"
     subTitle: "Evita reparaciones mayores (Overhaul) en compresores y turbinas por ingesta de partículas."
   - title: "Continuidad Operativa"
@@ -34,7 +34,7 @@ descriptionList:
 specificationsLeft:
   - title: "Aire de admisión"
     subTitle: "Soluciones para evitar restricciones de flujo y proteger equipos de insectos, hojas, hollín. Ofrecemos cartuchos cilíndricos y tipo panel tanto en medidas estándar de mercado como en fabricaciones a medida para carcasas específicas."
-  - title: "Colectores de Polvo y HVAC y Filtración de Aire Especializada"
+  - title: "HVAC y Filtración de Aire Especializada"
     subTitle: "Diseñamos y fabricamos soluciones de filtración adaptadas a cualquier infraestructura de aire. Desde pre-filtros de alto rendimiento hasta sistemas de grado absoluto (HEPA y ULPA), desarrollamos elementos a medida que cumplen con los rangos normativos más exigentes para ambientes controlados."
   #- title: "Quantity Per Set"
     #subTitle: "Each set contains a comprehensive assortment of machine screws to meet diverse industrial requirements."
@@ -42,7 +42,7 @@ specificationsLeft:
     #subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
 specificationsRight:
   - title: "Colectores de Polvo"
-    subTitle: "Suministramos Mangas y Cartuchos compatibles con equipos del mercado. Materiales disponibles: Polipropileno, Poliéster, Nylon y Microfibra sintética. Para aplicaciones especiales."
+    subTitle: "Suministramos Mangas y Cartuchos compatibles con equipos del mercado. Materiales disponibles: Polipropileno, Poliéster, Aramidas y Spunbond. Para aplicaciones especiales."
   - title: "¿Equipo Obsoleto?"
     subTitle: "No cambies tu maquinaria, cambia el filtro. Tenemos la capacidad de replicar cartuchos descontinuados que ya no existen comercialmente. Si tienes la muestra o el plano, fabricamos la refacción exacta a medida."
   #- title: "Certifications"

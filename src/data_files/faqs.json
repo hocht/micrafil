@@ -11,19 +11,11 @@
     },
     {
       "question": "Mi filtro es muy viejo, 'hechizo' o descontinuado, ¿tiene solución?",
-      "answer": "Sí. En estos casos la cotización es física. Necesitamos que nos traigas la muestra física a nuestro taller o solicites una recolección. Hacemos ingeniería inversa para fabricar uno nuevo con las mismas dimensiones, e incluso podemos mejorar los materiales si tu proceso actual lo requiere."
+      "answer": "Sí, en estos casos necesitamos que nos traigas la muestra física a nuestro taller o solicites una visita tecnica. Hacemos ingeniería inversa para fabricar uno nuevo con las mismas dimensiones, e incluso podemos mejorar los materiales si tu proceso actual lo requiere."
     },
     {
-      "question": "Tengo problemas de saturación, ¿me pueden asesorar?",
-      "answer": "Claro. Si tus filtros se tapan muy rápido, no pidas 'precio del mismo'. Pide una asesoría. Analizamos tu proceso para recomendarte una media filtrante diferente que dure más tiempo. A veces el problema no es el filtro, es la selección del material incorrecto para tu fluido."
-    },
-    {
-      "question": "¿Cuál es su zona de cobertura y tiempos de respuesta?",
-      "answer": "Para garantizar velocidad real, nos enfocamos exclusivamente en la región del Bajío (Querétaro y Guanajuato). Esto nos permite entregas personales o envíos locales mucho más rápidos que un proveedor nacional. Las cotizaciones estándar las respondemos el mismo día."
-    },
-    {
-      "question": "¿Buscas filtros de agua para casa, restaurante o uso comercial?",
-      "answer": "Para necesidades residenciales y del sector servicios, contamos con nuestra división especializada: Micrafil Water. Encuentra equipos de Ósmosis Inversa, purificadores y refacciones domésticas directamente en micrafil.com/water."
+      "question": "Siento que mi proceso de filtración no rinde como debería, pero no sé exactamente por qué.",
+      "answer": "Deja de arrastrar el problema. En lugar de seguir adivinando o pedir el \"precio del mismo\" repuesto solo para salir del paso, pide una asesoría de una vez. Analizamos tu proceso para recomendarte una media filtrante diferente que soporte tu operación. A veces el filtro no es malo, simplemente estás usando el material incorrecto para tu fluido."
     }
   ]
 }

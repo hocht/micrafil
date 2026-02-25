@@ -13,7 +13,6 @@ const footerLinks = [
     links: [
       { name: "Líneas de Filtración", url: "/products" },
       { name: "Servicios de Ingeniería", url: "/services" },
-      { name: "Expertos", url: "#", badge: "Próximamente" },
     ],
   },
   {
