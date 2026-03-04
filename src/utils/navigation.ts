@@ -1,26 +1,26 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Inicio", url: "/" },
-  { name: "Productos", url: "/products" },
-  { name: "Servicios", url: "/services" },
+  { name: "Productos", url: "/products/" },
+  { name: "Servicios", url: "/services/" },
   { name: "Blog", url: "#" },
-  { name: "Contacto", url: "/contact" },
+  { name: "Contacto", url: "/contact/"},
 ];
 // An array of links for footer
 const footerLinks = [
   {
     section: "Soluciones",
     links: [
-      { name: "Líneas de Filtración", url: "/products" },
-      { name: "Servicios de Ingeniería", url: "/services" },
+      { name: "Líneas de Filtración", url: "/products/" },
+      { name: "Servicios de Ingeniería", url: "/services/" },
     ],
   },
   {
     section: "Micrafil",
     links: [
-      { name: "Nuestra Experiencia", url: "/services" },
+      { name: "Nuestra Experiencia", url: "/services/" },
       { name: "Testimonios", url: "/products#testimonials" },
-      { name: "Blog Técnico", url: "/blog", badge: "Próximamente" },
+      { name: "Blog Técnico", url: "/blog/", badge: "Próximamente" },
     ],
   },
 ];
