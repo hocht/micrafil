@@ -1,10 +1,10 @@
 
 const navBarLinks = [
-  { name: "Accueil", url: "/fr" },
-  { name: "Produits", url: "/fr/products" },
-  { name: "Services", url: "/fr/services" },
+  { name: "Accueil", url: "/en" },
+  { name: "Produits", url: "/en/products" },
+  { name: "Services", url: "/en/services" },
   { name: "Blog", url: "#" },
-  { name: "Contact", url: "/fr/contact" },
+  { name: "Contact", url: "/en/contact" },
 ];
 
 const footerLinks = [

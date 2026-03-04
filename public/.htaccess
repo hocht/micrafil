@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. FORZAR HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # 2. QUITAR WWW (Para que siempre sea micrafil.com)
+  RewriteCond %{HTTP_HOST} ^www\.micrafil\.com [NC]
+  RewriteRule ^(.*)$ https://micrafil.com/$1 [L,R=301]
+
+  # 3. RESPETAR ARCHIVOS EXISTENTES
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # 4. URLs LIMPIAS (Trailing Slash)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  RewriteRule ^(.*)$ https://micrafil.com/$1/ [L,R=301]
+
+  # 5. CARGAR EL INDEX.HTML DE CADA CARPETA (Magia para Astro)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ $1/index.html [L]
+
+  # 6. ERROR 404
+  ErrorDocument 404 /404.html
+</IfModule>
