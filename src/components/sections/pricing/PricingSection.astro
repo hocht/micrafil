@@ -87,6 +87,7 @@ interface PricingSectionProps {
       <a
         href={pricing.starterKit.purchaseLink}
         class="block rounded-lg bg-micrafil-gold-500 px-8 py-3 text-center text-sm font-bold text-micrafil-blue-600 outline-hidden ring-micrafil-blue-400 transition-all duration-300 hover:bg-micrafil-gold-600 hover:text-micrafil-blue-700 hover:ring-micrafil-blue-500 hover:scale-105 focus-visible:ring-3 active:bg-micrafil-gold-700 active:text-micrafil-blue-800 md:text-base"
+        data-track="conversion_telefono"
         >{pricing.starterKit.purchaseBtnTitle}</a
       >
     </div>
@@ -139,6 +140,7 @@ interface PricingSectionProps {
       <a
         href={pricing.professionalToolbox.purchaseLink}
         class="block rounded-lg bg-micrafil-gold-500 px-8 py-3 text-center text-sm font-bold text-micrafil-blue-600 outline-hidden ring-micrafil-blue-400 transition-all duration-300 hover:bg-micrafil-gold-600 hover:text-micrafil-blue-700 hover:ring-micrafil-blue-500 hover:scale-105 focus-visible:ring-3 active:bg-micrafil-gold-700 active:text-micrafil-blue-800 md:text-base"
+        data-track="conversion_whatsapp"
         >{pricing.professionalToolbox.purchaseBtnTitle}</a
       >
     </div>
@@ -149,6 +151,6 @@ interface PricingSectionProps {
       {pricing.thirdOption}
     </p>
 
-    <SecondaryCTA title={pricing.btnText} url="https://wa.me/5214423560603" />
+    <SecondaryCTA title={pricing.btnText} url="https://wa.me/5214423560603" dataTrack="conversion_whatsapp" />
   </div>
 </section>

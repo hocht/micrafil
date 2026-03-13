@@ -3,7 +3,7 @@
 import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
 
 // Destructure the props passed to the Astro component
-const { title, subTitle, btnExists, btnTitle, btnURL } = Astro.props;
+const { title, subTitle, btnExists, btnTitle, btnURL, dataTrack } = Astro.props;
 // Define TypeScript interface for props
 interface Props {
   title: string;
@@ -11,6 +11,7 @@ interface Props {
   btnExists?: boolean;
   btnTitle?: string;
   btnURL?: string;
+  dataTrack?: string;
 }
 ---
 
@@ -35,7 +36,7 @@ interface Props {
     {
       btnExists ? (
         <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-          <PrimaryCTA title={btnTitle} url={btnURL} />
+          <PrimaryCTA title={btnTitle} url={btnURL} dataTrack={dataTrack} />
         </div>
       ) : null
     }

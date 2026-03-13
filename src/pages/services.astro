@@ -135,6 +135,7 @@ const ogTitle = "Servicios de Filtración Industrial | Micrafil";
     btnExists={true}
     btnTitle="Agendar Diagnóstico Técnico"
     btnURL="/contact"
+    dataTrack="conversion_contacto"
   />
   {/* RightSection and LeftSection contain details about various services along with pertinent imagery.
   They alternate for variety in design.
@@ -158,6 +159,7 @@ const ogTitle = "Servicios de Filtración Industrial | Micrafil";
           btnExists={article.btnExists}
           btnTitle={article.btnTitle}
           btnURL={article.btnURL}
+          dataTrack={article.btnURL === "/contact" ? "conversion_contacto" : article.btnTitle === "Evaluar Viabilidad Técnica" ? "conversion_whatsapp" : undefined}
         />
       ) : (
         <LeftSection
@@ -168,6 +170,7 @@ const ogTitle = "Servicios de Filtración Industrial | Micrafil";
           btnExists={article.btnExists}
           btnTitle={article.btnTitle}
           btnURL={article.btnURL}
+          dataTrack={article.btnURL === "/contact" ? "conversion_contacto" : article.btnTitle === "Solicitar Soporte Técnico" ? "conversion_whatsapp" : undefined}
         />
       );
     })

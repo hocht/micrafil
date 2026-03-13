@@ -1,10 +1,11 @@
 ---
 import Icon from "@components/ui/icons/Icon.astro";
-const { title, url } = Astro.props;
+const { title, url, dataTrack } = Astro.props;
 
 interface Props {
   title?: string;
   url?: string;
+  dataTrack?: string;
 }
 
 const baseClasses =
@@ -14,14 +15,14 @@ const bgColorClasses = "bg-micrafil-gold-500 dark:focus:outline-hidden";
 const hoverClasses = "hover:shadow-2xl hover:shadow-micrafil-gold-600";
 const fontSizeClasses = "2xl:text-base";
 const ringClasses = "dark:ring-zinc-200";
+const iconColorClasses = "text-neutral-700 dark:text-neutral-700";
 ---
 
 <a
   class={`${baseClasses} ${borderClasses} ${bgColorClasses} ${hoverClasses} ${fontSizeClasses} ${ringClasses}`}
   href={url}
-  target="_blank"
-  rel="noopener noreferrer"
+  data-track={dataTrack}
 >
-  <Icon name="whatsapp" />
+  <Icon name="phoneHeader" class={iconColorClasses} />
   {title}
 </a>

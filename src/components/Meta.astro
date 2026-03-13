@@ -140,3 +140,37 @@ const appleTouchIcon = await getImage({
 <link href={appleTouchIcon.src} rel="shortcut icon" />
 {/* Set theme color */}
 <meta name="theme-color" content="#facc15" />
+
+<script
+  type="text/partytown"
+  src="https://www.googletagmanager.com/gtag/js?id=G-F93RB0MDP3"></script>
+
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  // Conexión con tu cuenta de GA4
+  gtag("config", "G-F93RB0MDP3");
+</script>
+
+<script is:inline>
+  document.addEventListener('click', (e) => {
+    // Busca si el elemento clicado (o su padre) tiene el atributo 'data-track'
+    const el = e.target.closest('[data-track]');
+    
+    if (el) {
+      const nombreEvento = el.dataset.track; // Captura el valor: p.ej. "conversion_whatsapp"
+
+      if (typeof gtag === 'function') {
+        // Envía el evento directamente a Analytics
+        gtag('event', nombreEvento);
+        
+        // Mensaje de confirmación en la consola para tus pruebas
+        console.log("✅ Conversión enviada a GA4:", nombreEvento);
+      }
+    }
+  });
+</script>

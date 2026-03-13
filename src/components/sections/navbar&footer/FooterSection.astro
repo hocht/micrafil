@@ -79,14 +79,21 @@ const crafted: string = Astro.currentLocale === "en" ? "Crafted by" : "Creado po
             class="rounded-lg font-medium underline underline-offset-2 outline-hidden ring-zinc-500 transition duration-300 hover:text-ui-text-primary hover:decoration-dashed focus:outline-hidden focus-visible:ring-3 dark:ring-zinc-200 dark:hover:text-ui-text-primary"
             href="https://www.instagram.com/hochtx/"
             target="_blank"
-            rel="noopener noreferrer">Rodrigo Estilla</a
+            rel="noopener noreferrer"
+            data-track="conversion_rodrigo_estilla">Rodrigo Estilla</a
           >.
         </p>
       </div>
 
       <!-- Social Brands -->
       <div>
+        <FooterSocialLink url="tel:+5214423560603"
+          dataTrack="conversion_telefono"
+          ><Icon name="phone" />
+        </FooterSocialLink>
+        
         <FooterSocialLink url={strings.socialLinks.facebook}
+          dataTrack="conversion_facebook"
           ><Icon name="facebookFooter" />
         </FooterSocialLink>
 
@@ -99,6 +106,7 @@ const crafted: string = Astro.currentLocale === "en" ? "Crafted by" : "Creado po
         </FooterSocialLink> */}
 
         <FooterSocialLink url={strings.socialLinks.google}
+          dataTrack="conversion_google"
           ><Icon name="googleFooter" />
         </FooterSocialLink>
 
@@ -106,9 +114,11 @@ const crafted: string = Astro.currentLocale === "en" ? "Crafted by" : "Creado po
           ><Icon name="slackFooter" />
         </FooterSocialLink> */}
         <FooterSocialLink url={strings.socialLinks.instagram}
+          dataTrack="conversion_instagram"
           ><Icon name="instagramFooter" />
         </FooterSocialLink>
         <FooterSocialLink url={strings.socialLinks.linkedin}
+          dataTrack="conversion_linkedin"
           ><Icon name="linkedIn" />
         </FooterSocialLink>
       </div>

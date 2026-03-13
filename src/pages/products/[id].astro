@@ -129,6 +129,7 @@ const ogTitle = `${product.data.title} | Hardware Tools | ScrewFast`;
                 <PrimaryCTA
                   title={product.data.longDescription.btnTitle}
                   url={product.data.longDescription.btnURL}
+                  dataTrack={product.data.longDescription.btnTitle === "Consultar con un Especialista" || product.data.longDescription.btnTitle === "Consultar Disponibilidad" || product.data.longDescription.btnTitle === "Consultar Equivalencia" || product.data.longDescription.btnTitle === "Cotizar Consumibles" ? "conversion_whatsapp" : undefined}
                 />
               </p>
             </div>
