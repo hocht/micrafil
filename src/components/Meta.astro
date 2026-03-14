@@ -166,13 +166,24 @@ const appleTouchIcon = await getImage({
     if (el) {
       const nombreEvento = el.dataset.track;
 
+      // Definimos los parámetros del evento, incluyendo el Beacon
+      const eventParams = {
+        'transport_type': 'beacon',
+        'debug_mode': true
+      };
+
       if (typeof window.gtag === 'function') {
-        window.gtag('event', nombreEvento);
-        console.log("✅ Conversión cruzó a Partytown:", nombreEvento);
+        // Enviamos el evento con Beacon
+        window.gtag('event', nombreEvento, eventParams);
+        console.log("✅ Enviado con Beacon:", nombreEvento);
       } else {
+        // Respaldo en dataLayer incluyendo el transporte
         window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({ 'event': nombreEvento });
-        console.log("✅ Conversión guardada en dataLayer:", nombreEvento);
+        window.dataLayer.push({ 
+          'event': nombreEvento,
+          ...eventParams 
+        });
+        console.log("✅ Guardado en dataLayer (esperando Partytown):", nombreEvento);
       }
     }
   });
