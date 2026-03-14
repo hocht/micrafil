@@ -33,6 +33,7 @@ export default defineConfig({
     partytown({
       config: {
         forward: ["gtag", "dataLayer.push"],
+        debug: true, // 👈 ESTO ES LO QUE NOS MOSTRARÁ LA VERDAD
       },
     }), // <--- ESTA COMA es la que separa a Partytown de Sitemap
     sitemap({
