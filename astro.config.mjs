@@ -3,7 +3,6 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import compressor from "astro-compressor";
 import starlight from "@astrojs/starlight";
-import partytown from "@astrojs/partytown";
 
 import mdx from "@astrojs/mdx";
 
@@ -30,12 +29,6 @@ export default defineConfig({
 //   },
   prefetch: true,
   integrations: [
-    partytown({
-      config: {
-        forward: ["gtag", "dataLayer.push"],
-        debug: true, // 👈 ESTO ES LO QUE NOS MOSTRARÁ LA VERDAD
-      },
-    }), // <--- ESTA COMA es la que separa a Partytown de Sitemap
     sitemap({
       i18n: {
         defaultLocale: "es", // All urls that don't contain language prefix will be treated as default locale
