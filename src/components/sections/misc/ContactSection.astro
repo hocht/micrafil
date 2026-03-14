@@ -39,26 +39,26 @@ const formSubTitle: string = "Complete el formulario para recibir una respuesta 
         </h2>
         <!-- Form for user input with various input fields.-->
         <!-- Each field utilizes a different input component for the specific type of input (text, email, phone, and textarea)-->
-        <form>
+        <form action="https://formspree.io/f/xojkloep" method="POST" data-track="conversion_formulario">
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
                 label="Nombre"
-                name="hs-firstname-contacts"
+                name="nombre"
               />
               <TextInput
                 id="hs-lastname-contacts"
                 label="Apellido / Empresa"
-                name="hs-firstname-contacts"
+                name="empresa"
               />
             </div>
             <EmailContactInput id="hs-email-contacts" />
-            <PhoneInput id="hs-phone-number" />
+            <PhoneInput id="hs-phone-number" name="telefono" />
             <TextAreaInput
               id="hs-about-contacts"
               label="Descripción del Requerimiento o Falla"
-              name="hs-about-contacts"
+              name="mensaje"
             />
           </div>
 
