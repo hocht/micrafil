@@ -142,18 +142,19 @@ const appleTouchIcon = await getImage({
 <meta name="theme-color" content="#facc15" />
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0THTJYMB"></script>
 <script is:inline>
+  // 1. DEFINICIÓN GLOBAL INMEDIATA (Para evitar el error de 'push')
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  // Configuración global con Beacon activo para evitar fugas en WhatsApp
-  gtag('config', 'G-GV0THTJYMB', { 
+  window.gtag = function() { window.dataLayer.push(arguments); }
+  
+  window.gtag('js', new Date());
+  window.gtag('config', 'G-GV0THTJYMB', { 
     'debug_mode': true,
     'transport_type': 'beacon'
   });
 </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV0THTJYMB"></script>
 
 <script is:inline>
   document.addEventListener('click', (e) => {
@@ -161,15 +162,17 @@ const appleTouchIcon = await getImage({
     if (el) {
       const nombreEvento = el.dataset.track;
       
-      // Enviamos el evento con Beacon
-      window.gtag('event', nombreEvento, {
-        'transport_type': 'beacon',
-        'event_callback': () => {
-          console.log("✅ GA4 recibió con éxito:", nombreEvento);
-        }
-      });
-
-      console.log("🚀 Clic detectado en:", nombreEvento);
+      // Verificamos que gtag existe antes de usarlo para no crashear
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', nombreEvento, {
+          'transport_type': 'beacon'
+        });
+        console.log("🚀 Evento enviado con éxito:", nombreEvento);
+      } else {
+        // Si por alguna razón milagrosa no existe, lo metemos directo al dataLayer
+        window.dataLayer.push(['event', nombreEvento, { 'transport_type': 'beacon' }]);
+        console.log("⚠️ gtag no listo, usando backup dataLayer para:", nombreEvento);
+      }
     }
   });
 </script>
