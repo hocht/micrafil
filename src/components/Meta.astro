@@ -140,14 +140,12 @@ const appleTouchIcon = await getImage({
 <link href={appleTouchIcon.src} rel="shortcut icon" />
 {/* Set theme color */}
 <meta name="theme-color" content="#facc15" />
-
 <script type="text/partytown">
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     window.dataLayer.push(arguments);
   }
   
-  // La línea mágica que conecta el puente
   window.gtag = gtag; 
   
   gtag("js", new Date());
@@ -162,29 +160,19 @@ const appleTouchIcon = await getImage({
 <script is:inline>
   document.addEventListener('click', (e) => {
     const el = e.target.closest('[data-track]');
-    
     if (el) {
       const nombreEvento = el.dataset.track;
-
-      // Definimos los parámetros del evento, incluyendo el Beacon
-      const eventParams = {
+      
+      // Aseguramos que dataLayer existe
+      window.dataLayer = window.dataLayer || [];
+      
+      // USAMOS LA SINTAXIS DE ARGUMENTOS (Es la que GA4 prefiere)
+      window.dataLayer.push(['event', nombreEvento, {
         'transport_type': 'beacon',
         'debug_mode': true
-      };
+      }]);
 
-      if (typeof window.gtag === 'function') {
-        // Enviamos el evento con Beacon
-        window.gtag('event', nombreEvento, eventParams);
-        console.log("✅ Enviado con Beacon:", nombreEvento);
-      } else {
-        // Respaldo en dataLayer incluyendo el transporte
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({ 
-          'event': nombreEvento,
-          ...eventParams 
-        });
-        console.log("✅ Guardado en dataLayer (esperando Partytown):", nombreEvento);
-      }
+      console.log("🚀 Evento enviado al buzón:", nombreEvento);
     }
   });
 </script>
