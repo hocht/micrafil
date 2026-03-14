@@ -150,6 +150,10 @@ const appleTouchIcon = await getImage({
   function gtag() {
     dataLayer.push(arguments);
   }
+
+  // 👇 ¡ESTA ES LA LÍNEA MÁGICA QUE FALTABA! 👇
+  window.gtag = gtag;
+  
   gtag("js", new Date());
   gtag("config", "G-F93RB0MDP3", { 'debug_mode': true });
 </script>
