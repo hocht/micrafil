@@ -2,28 +2,27 @@
   RewriteEngine On
   RewriteBase /
 
-  # 1. FORZAR HTTPS
-  RewriteCond %{HTTPS} off
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-  # 2. QUITAR WWW (Para que siempre sea micrafil.com)
-  RewriteCond %{HTTP_HOST} ^www\.micrafil\.com [NC]
+  # 1. FORZAR HTTPS Y QUITAR WWW
+  # Si no tiene HTTPS O si empieza con www, redirigir a https://micrafil.com
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
   RewriteRule ^(.*)$ https://micrafil.com/$1 [L,R=301]
 
-  # 3. RESPETAR ARCHIVOS EXISTENTES
+  # 2. IMPORTANTE: Si es un archivo real (JS, CSS, Imágenes), no tocarlo
+  # Esto evita el error de redirección en los scripts de Google Analytics
   RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
 
-  # 4. URLs LIMPIAS (Trailing Slash)
+  # 3. URLs LIMPIAS PARA ASTRO (Añadir barra al final solo a carpetas)
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_URI} !(.*)/$
   RewriteRule ^(.*)$ https://micrafil.com/$1/ [L,R=301]
 
-  # 5. CARGAR EL INDEX.HTML DE CADA CARPETA (Magia para Astro)
+  # 4. CARGAR EL INDEX.HTML INTERNO
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.*)/$ $1/index.html [L]
 
-  # 6. ERROR 404
+  # 5. ERROR 404
   ErrorDocument 404 /404.html
 </IfModule>
