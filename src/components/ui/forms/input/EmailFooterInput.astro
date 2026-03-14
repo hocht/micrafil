@@ -17,23 +17,21 @@ const placeholder = Astro.currentLocale === "fr" ? "Entrez votre email" : "Enter
 <div
   class="mt-4 flex flex-col items-center gap-2 rounded-lg bg-neutral-800 p-2 sm:flex-row sm:gap-3"
 >
-  <form action="https://formspree.io/f/xkoqvwpd" method="POST" data-track="conversion_newsletter">
-    <div class="w-full">
-      <label for={id} class="sr-only">{label}</label>
-      <input
-        type="email"
-        id={id}
-        name="email"
-        class="block w-full rounded-lg border-transparent bg-neutral-700 px-4 py-3 text-sm text-gray-300 placeholder:text-neutral-300 focus:border-orange-400 focus:ring-orange-400 disabled:pointer-events-none disabled:opacity-50 caret-orange-400"
-        placeholder={placeholder}
-        required
-      />
-    </div>
-    <button
-      type="submit"
-      class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-micrafil-gold-500 p-3 text-sm font-bold text-neutral-700 outline-hidden ring-zinc-500 transition duration-300 hover:bg-micrafil-gold-600 focus-visible:ring-3 disabled:pointer-events-none disabled:opacity-50 dark:ring-zinc-200 dark:focus:outline-hidden dark:focus:ring-1 sm:w-auto"
-    >
-      {title}
-    </button>
-  </form>
+  <div class="w-full">
+    <label for={id} class="sr-only">{label}</label>
+    <input
+      type="email"
+      id={id}
+      name="email"
+      class="block w-full rounded-lg border-transparent bg-neutral-700 px-4 py-3 text-sm text-gray-300 placeholder:text-neutral-300 focus:border-orange-400 focus:ring-orange-400 disabled:pointer-events-none disabled:opacity-50 caret-orange-400"
+      placeholder={placeholder}
+      required
+    />
+  </div>
+  <button
+    type="submit"
+    class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-micrafil-gold-500 p-3 text-sm font-bold text-neutral-700 outline-hidden ring-zinc-500 transition duration-300 hover:bg-micrafil-gold-600 focus-visible:ring-3 disabled:pointer-events-none disabled:opacity-50 dark:ring-zinc-200 dark:focus:outline-hidden dark:focus:ring-1 sm:w-auto"
+  >
+    {title}
+  </button>
 </div>
