@@ -14,6 +14,7 @@
   RewriteRule ^ - [L]
 
   # 3. URLs LIMPIAS PARA ASTRO (Añadir barra al final solo a carpetas)
+  RewriteCond %{REQUEST_URI} !^/water
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_URI} !(.*)/$
   RewriteRule ^(.*)$ https://micrafil.com/$1/ [L,R=301]
